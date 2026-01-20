@@ -85,26 +85,26 @@ class YouTubeUploader:
                 logger.warning(f"Error loading credentials: {e}")
         
         # If there are no (valid) credentials available, let the user log in
+        # Headless: load saved credentials only, no browser
         if not creds or not creds.valid:
-            if creds and creds.expired and creds.refresh_token:
+            if os.path.exists(self.credentials_file):
+                try:
+                    creds = Credentials.from_authorized_user_file(self.credentials_file, YOUTUBE_SCOPES)
+                except Exception as e:
+                    raise RuntimeError(f"Failed to load credentials from {self.credentials_file}: {e}")
+            else:
+                raise FileNotFoundError(
+                    f"{self.credentials_file} not found. Cannot authenticate headlessly. "
+                    "Please run the script locally to generate it."
+                )
+            
+            # Refresh if expired
+            if creds.expired and creds.refresh_token:
                 try:
                     creds.refresh(Request())
                 except Exception as e:
-                    logger.error(f"Error refreshing credentials: {e}")
-                    creds = None
-            
-            if not creds:
-                if not os.path.exists(self.client_secrets_file):
-                    raise FileNotFoundError(
-                        f"OAuth credentials file not found: {self.client_secrets_file}\n"
-                        "Please download your OAuth credentials from Google Cloud Console."
-                    )
-                
-                flow = InstalledAppFlow.from_client_secrets_file(
-                    self.client_secrets_file,
-                    YOUTUBE_SCOPES
-                )
-                creds = flow.run_local_server(port=0)
+                    raise RuntimeError(f"Failed to refresh credentials: {e}")
+
             
             # Save credentials for next run
             with open(self.credentials_file, 'w') as token:
