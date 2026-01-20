@@ -43,7 +43,7 @@ class RedditFetcher:
         """Initialize RedditFetcher."""
         self.base_url = "https://www.reddit.com"
         self.headers = {
-            'User-Agent': 'YouTube-Auto-Bot/1.0 (by /u/youtubeautobot)'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
         }
     
     def fetch_reddit_stories(self, subreddit: str = None, max_results: int = 10, sort: str = "hot") -> List[Dict]:
