@@ -80,6 +80,10 @@ BUFFER_API_URL = os.getenv("BUFFER_API_URL", "https://api.buffer.com")
 # ----------------------------
 CLIENT_SECRETS_FILE = os.path.join(ROOT, "client_secrets.json")
 YOUTUBE_TOKEN_FILE = os.path.join(ROOT, "youtube-oauth2.json")
+# Cloud Agents secrets are env vars only (no file upload). Paste each JSON file's
+# full contents into these, and materialize_secret_files() writes them to disk.
+CLIENT_SECRETS_JSON = os.getenv("CLIENT_SECRETS_JSON", "")
+YOUTUBE_OAUTH_JSON = os.getenv("YOUTUBE_OAUTH_JSON", "")
 YOUTUBE_UPLOAD_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
 YOUTUBE_READONLY_SCOPE = "https://www.googleapis.com/auth/youtube.readonly"
 # Needed for updating video status/privacy (Unlisted -> Public).
@@ -106,8 +110,31 @@ RETRIABLE_STATUS_CODES = [500, 502, 503, 504]  # Note: 403 (quota exceeded) is N
 REQUIRED_CHANNEL_NAME = os.getenv("REQUIRED_CHANNEL_NAME", "RedditReviews")
 
 
+def materialize_secret_files() -> None:
+    """Write YouTube OAuth JSON files from env vars when Cloud Agents secrets are used."""
+    for path, raw in (
+        (CLIENT_SECRETS_FILE, CLIENT_SECRETS_JSON),
+        (YOUTUBE_TOKEN_FILE, YOUTUBE_OAUTH_JSON),
+    ):
+        text = (raw or "").strip()
+        if not text:
+            continue
+        # Allow secrets UIs that wrap JSON in single quotes.
+        if (text.startswith("'") and text.endswith("'")) or (text.startswith('"') and text.endswith('"')):
+            text = text[1:-1]
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(text)
+            if not text.endswith("\n"):
+                f.write("\n")
+        try:
+            os.chmod(path, 0o600)
+        except OSError:
+            pass
+
+
 def validate_config(need_voices: bool = True) -> list:
     """Returns a list of blocking configuration problems."""
+    materialize_secret_files()
     errors = []
     if need_voices and not elevenlabs_api_keys():
         errors.append(
@@ -115,5 +142,8 @@ def validate_config(need_voices: bool = True) -> list:
             "or add ELEVENLABS_API_KEY / ELEVENLABS_API_KEY_2 to .env.local)"
         )
     if not os.path.exists(CLIENT_SECRETS_FILE):
-        errors.append(f"{os.path.basename(CLIENT_SECRETS_FILE)} not found. Add your YouTube OAuth credentials.")
+        errors.append(
+            f"{os.path.basename(CLIENT_SECRETS_FILE)} not found. Add the file locally, or set CLIENT_SECRETS_JSON "
+            "in Cloud Agents secrets to the full JSON contents."
+        )
     return errors
