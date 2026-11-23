@@ -263,19 +263,35 @@ class AnimatedVideoGenerator:
             npm = os.path.join(os.path.dirname(node), "npm")
             subprocess.run([npm, "ci", "--no-audit", "--no-fund"], cwd=ANIMATOR_DIR, env=env, check=True, timeout=900)
         cli = os.path.join(ANIMATOR_DIR, "node_modules", "@remotion", "cli", "remotion-cli.js")
-        cmd = [
-            node, cli, "render", "StoryShort", out_path,
-            f"--props={props_path}",
-            "--gl=angle",
-            "--muted",
-            "--log=error",
-        ]
+        # angle uses the GPU. Cloud agents have no GPU, so a WebGL failure retries on swangle
+        # (SwiftShader). Machines with a GPU still take the angle path.
+        errors = []
         t0 = time.time()
-        r = subprocess.run(cmd, cwd=ANIMATOR_DIR, env=env, capture_output=True, text=True, timeout=3600)
-        if r.returncode != 0 or not os.path.exists(out_path):
+        for gl in ("angle", "swangle"):
+            try:
+                if os.path.exists(out_path):
+                    os.remove(out_path)
+            except OSError:
+                pass
+            cmd = [
+                node, cli, "render", "StoryShort", out_path,
+                f"--props={props_path}",
+                f"--gl={gl}",
+                "--muted",
+                "--log=error",
+            ]
+            r = subprocess.run(cmd, cwd=ANIMATOR_DIR, env=env, capture_output=True, text=True, timeout=3600)
+            if r.returncode == 0 and os.path.exists(out_path) and os.path.getsize(out_path) > 0:
+                logger.info(f"Rendered animation in {time.time() - t0:.0f}s (gl={gl})")
+                return
             tail = (r.stderr or r.stdout or "")[-2000:]
-            raise RuntimeError(f"Remotion render failed ({r.returncode}): {tail}")
-        logger.info(f"Rendered animation in {time.time() - t0:.0f}s")
+            errors.append(f"gl={gl} ({r.returncode}): {tail}")
+            webgl_down = "webgl" in tail.lower()
+            if gl == "angle" and webgl_down:
+                logger.warning("Remotion could not create a GPU WebGL context; retrying with software GL (swangle)")
+                continue
+            break
+        raise RuntimeError("Remotion render failed: " + " | ".join(errors))
 
     @staticmethod
     def _mux(video: str, audio: str, out_path: str) -> None:

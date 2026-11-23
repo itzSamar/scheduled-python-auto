@@ -149,25 +149,66 @@ class BufferClient:
         return last
 
 
-def host_video(path: str) -> str:
-    """Upload the mp4 to a public host Buffer can fetch. Returns a direct HTTPS URL."""
-    name = os.path.basename(path)
-    with open(path, "rb") as handle:
-        response = requests.post(
-            "https://catbox.moe/user/api.php",
-            data={"reqtype": "fileupload"},
-            files={"fileToUpload": (name, handle, "video/mp4")},
-            timeout=300,
-        )
-    url = (response.text or "").strip()
-    if response.status_code != 200 or not url.startswith("https://"):
-        raise BufferError(f"Could not host the video ({response.status_code}): {url[:180]}")
-    # requests gets its connection reset by this host; curl confirms the file is public.
+def _confirm_public(url: str) -> None:
+    # requests gets its connection reset by some hosts; curl confirms the file is public.
     check = subprocess.run(
         ["curl", "-fsS", "-m", "30", "-r", "0-15", "-o", os.devnull, "-w", "%{http_code}", url],
         capture_output=True, text=True, timeout=40,
     )
     if check.stdout.strip() not in ("200", "206"):
         raise BufferError(f"Hosted URL is not publicly readable ({check.stdout.strip() or check.stderr[-180:]}): {url}")
-    logger.info(f"Hosted video for Buffer: {url}")
-    return url
+
+
+def host_video(path: str) -> str:
+    """Upload the mp4 to a public host Buffer can fetch. Returns a direct HTTPS URL.
+
+    Buffer downloads the file when the post is created. Catbox is tried first.
+    Anonymous catbox uploads sometimes return 412 from cloud IPs, so uguu is the fallback.
+    """
+    name = os.path.basename(path)
+    headers = {"User-Agent": "RedditReviews/1.0"}
+    errors = []
+
+    try:
+        with open(path, "rb") as handle:
+            response = requests.post(
+                "https://catbox.moe/user/api.php",
+                data={"reqtype": "fileupload"},
+                files={"fileToUpload": (name, handle, "video/mp4")},
+                headers=headers,
+                timeout=300,
+            )
+        url = (response.text or "").strip()
+        if response.status_code != 200 or not url.startswith("https://"):
+            raise BufferError(f"catbox ({response.status_code}): {url[:180]}")
+        _confirm_public(url)
+        logger.info(f"Hosted video for Buffer: {url}")
+        return url
+    except BufferError as exc:
+        logger.warning(f"catbox host failed ({exc}); trying uguu")
+        errors.append(str(exc))
+
+    try:
+        with open(path, "rb") as handle:
+            response = requests.post(
+                "https://uguu.se/upload",
+                files={"files[]": (name, handle, "video/mp4")},
+                headers=headers,
+                timeout=300,
+            )
+        try:
+            body = response.json()
+        except ValueError as exc:
+            raise BufferError(f"uguu returned {response.status_code} with a non-JSON body") from exc
+        files = body.get("files") or []
+        url = (files[0].get("url") if files else "") or ""
+        url = url.replace("\\/", "/")
+        if response.status_code != 200 or not url.startswith("https://"):
+            raise BufferError(f"uguu ({response.status_code}): {(response.text or '')[:180]}")
+        _confirm_public(url)
+        logger.info(f"Hosted video for Buffer: {url}")
+        return url
+    except BufferError as exc:
+        errors.append(str(exc))
+
+    raise BufferError("Could not host the video: " + " | ".join(errors))
