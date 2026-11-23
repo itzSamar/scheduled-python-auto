@@ -1,0 +1,244 @@
+{
+ "source": {
+  "title": "Exact Change",
+  "subreddit": "MaliciousCompliance",
+  "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1x00daz/exact_change/",
+  "score": 17601,
+  "num_comments": 0,
+  "text": "This just happened to me.\n\nI went into a Walgreens to pick up a prescription. The pharmacist put in my info and insurance, leaving the total at twelve cents. I went into my wallet and plucked out a dime and two pennies.\n\nPHARMACIST: \"I'm sorry, we don't take those anymore.\"\n\nME: \"You don't take coins?\"\n\nPHARMACIST: \"Pennies. They stopped making them.\"\n\nME: \"Yeah, I know, but they're still legal tender.\"\n\nPHARMACIST: \"We don't take them anymore.\"\n\nME: \"Can I speak to someone about this?\"\n\nPHARMACIST: \"I'm the only person here.\"\n\nI know that's not true, but fine. I put the coins back into my wallet and pull out a twenty. The pharmacist gives me a filthy look, but takes it and goes to ring me up... only to discover that they are short not just coins, but singles.\n\nPHARMACIST: \"I don't have exact change.\"\n\nME: \"I do.\"\n\nA moment and another filthy look. The pharmacist puts the change back in, hands me my twenty, and takes my coins without another word."
+ },
+ "render_style": "2d",
+ "written_by": "cursor-agent",
+ "notes": "Pharmacy refused pennies for a twelve-cent total, then had to take them when a twenty left the drawer short. Money is only talked about, never pointed at. One trend aside (I got so mad). No curse.",
+ "screenplay": {
+  "title": "They refused twelve cents. Then they needed it.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "female",
+    "age": "20s",
+    "voiceTone": "warm",
+    "look": {
+     "hair": "ponytail",
+     "hairColor": "#3b2a1a",
+     "skin": "#e8b996",
+     "outfit": "tshirt",
+     "outfitColor": "#4a7bd0",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "pharma",
+    "name": "Greg",
+    "gender": "male",
+    "age": "40s",
+    "voiceTone": "stern",
+    "look": {
+     "hair": "short",
+     "hairColor": "#1f1a17",
+     "skin": "#8d5524",
+     "outfit": "uniform",
+     "outfitColor": "#d94141",
+     "accessory": "glasses"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "store",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "pharma"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "The total was twelve cents, and they refused my pennies.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I'd come in for a prescription, and insurance left twelve cents.",
+      "emotion": "neutral",
+      "action": "talk",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "pharma",
+      "text": "We don't take pennies anymore.",
+      "emotion": "annoyed",
+      "action": "hands_on_hips",
+      "camera": "closeup:pharma"
+     },
+     {
+      "speaker": "op",
+      "text": "They're still legal tender.",
+      "emotion": "confused",
+      "action": "shrug",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "pharma",
+      "text": "[deadpan] They stopped making them. We stopped taking them.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:pharma"
+     },
+     {
+      "speaker": "op",
+      "text": "My bank still handed out pennies this morning.",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "pharma",
+      "text": "Not in this store. Corporate says pennies are finished.",
+      "emotion": "annoyed",
+      "action": "point",
+      "camera": "closeup:pharma"
+     },
+     {
+      "speaker": "op",
+      "text": "Corporate isn't standing at this register.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "Then let me talk to someone else about it.",
+      "emotion": "annoyed",
+      "action": "hands_on_hips",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "pharma",
+      "text": "[scoffs] I'm the only person here.",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "closeup:pharma"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I could hear someone in the back. I got so mad, I offered a twenty.",
+      "emotion": "angry",
+      "action": "point",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "pharma",
+      "text": "I don't have change for a twenty.",
+      "emotion": "nervous",
+      "action": "think",
+      "camera": "closeup:pharma"
+     },
+     {
+      "speaker": "op",
+      "text": "[sarcastic] Then the twelve cents still works.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He checked the register twice. No singles left in the drawer.",
+      "emotion": "smug",
+      "action": "think",
+      "camera": "push_in:pharma"
+     },
+     {
+      "speaker": "pharma",
+      "text": "[sighs] Fine. I'll take the pennies.",
+      "emotion": "embarrassed",
+      "action": "facepalm",
+      "camera": "closeup:pharma"
+     },
+     {
+      "speaker": "narrator",
+      "text": "The counter went quiet, and he just stared at the register.",
+      "emotion": "smug",
+      "action": "idle",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He rang up twelve cents and never said another word.",
+      "emotion": "laughing",
+      "action": "celebrate",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "[chuckles] So pennies work the second you need them.",
+      "emotion": "laughing",
+      "action": "shrug",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "car",
+    "timeOfDay": "evening",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "I left with the prescription. He still wouldn't look at me.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "Next time I'm bringing a twenty on purpose.",
+      "emotion": "smug",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Would you have offered the twenty, or just walked out?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "scheduled",
+  "at": "2026-11-23T01:22:59+00:00",
+  "via": "buffer",
+  "video": "generated_videos/video_20261123_011007.mp4",
+  "duration_seconds": 71.16,
+  "host": "uguu",
+  "host_url": "https://n.uguu.se/MTrfqAPTBxfl.mp4",
+  "posts": [
+   {
+    "service": "youtube",
+    "id": "6b03955a846b0ee907d1d03c",
+    "status": "scheduled",
+    "shareMode": "customScheduled",
+    "dueAt": "2026-11-27T04:26:00.000Z",
+    "slot": "Thu 20:26 America/Los_Angeles"
+   },
+   {
+    "service": "tiktok",
+    "id": "6b03955bcc364169c19d9136",
+    "status": "scheduled",
+    "shareMode": "customScheduled",
+    "dueAt": "2026-11-23T17:50:00.000Z",
+    "slot": "Mon 09:50 America/Los_Angeles"
+   }
+  ]
+ }
+}
