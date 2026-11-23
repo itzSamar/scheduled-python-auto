@@ -1,0 +1,246 @@
+{
+ "source": {
+  "title": "A Halloween event advertised a $500 costume contest that didn't exist, so I organized a small rebellion that succeeded.",
+  "subreddit": "pettyrevenge",
+  "url": "https://www.reddit.com/r/pettyrevenge/comments/1xllszx/a_halloween_event_advertised_a_500_costume/",
+  "score": 5796,
+  "num_comments": 293,
+  "text": "I take Halloween more seriously than any reasonable adult should, so this year I went as Zoltar and spent an embarrassing amount of time and money on props, 100 custom-printed, wildly inappropriate fortunes, and even a website. I’m also an unemployed marketing director, so naturally I worked in a little self-promotion. \n\nThe job market has apparently driven me to networking from inside a fortune-telling machine.\n\nThe motivation for this absurd undertaking was a Halloween event advertising a $500 cash prize for best costume. Unfortunately, when I arrived, the contest appeared to exist exclusively in their marketing materials. I spoke with over 10 employees, including the GM, and nobody knew anything about it.  \nI was pissed, but fortunately Zoltar was a hit, so I started telling everyone who approached me about this grave injustice and encouraging them to comment “JUSTICE FOR ZOLTAR” on the promoter’s Instagram.\n\nApparently, drunk twenty-somethings are remarkably easy to radicalize, because they actually flooded the comments demanding compensation for a fictional fortune teller.\n\nThe next day, the promoters called me, declared me the undisputed winner, sent me $500, and offered me VIP access to a future event.\n\nI’ve now won Halloween two years in a row, although this year apparently required a small populist uprising.  \nI’ve worked in marketing for years, and it’s mildly concerning that one of my more successful campaigns involved mobilizing drunk strangers on behalf of a man in a box.\n\n[Pic for full effect.](https://imgur.com/gallery/H01aApm#LoecNX1) "
+ },
+ "render_style": null,
+ "written_by": "cursor-agent",
+ "notes": "Drinking removed (party crowd). The marketing-job setup in scene 1 pays off in the 'man in a box' button.",
+ "screenplay": {
+  "title": "A Halloween party faked a $500 costume contest. Justice for Zoltar.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Zoltar",
+    "gender": "male",
+    "age": "40s",
+    "voiceTone": "deep",
+    "look": {
+     "hair": "short",
+     "hairColor": "#2c1b10",
+     "skin": "#e0ac69",
+     "outfit": "suit",
+     "outfitColor": "#6c3483",
+     "accessory": "beard"
+    }
+   },
+   {
+    "id": "staff",
+    "name": "Staff",
+    "gender": "female",
+    "age": "20s",
+    "voiceTone": "bright",
+    "look": {
+     "hair": "ponytail",
+     "hairColor": "#b5651d",
+     "skin": "#ffdbac",
+     "outfit": "uniform",
+     "outfitColor": "#c0392b",
+     "accessory": "cap"
+    }
+   },
+   {
+    "id": "guest",
+    "name": "Party Guest",
+    "gender": "male",
+    "age": "20s",
+    "voiceTone": "energetic",
+    "look": {
+     "hair": "spiky",
+     "hairColor": "#e3c27a",
+     "skin": "#8d5524",
+     "outfit": "hoodie",
+     "outfitColor": "#27ae60",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "promoter",
+    "name": "Promoter",
+    "gender": "female",
+    "age": "30s",
+    "voiceTone": "warm",
+    "look": {
+     "hair": "long",
+     "hairColor": "#1f1a17",
+     "skin": "#c68642",
+     "outfit": "dress",
+     "outfitColor": "#2980b9",
+     "accessory": "glasses"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "restaurant",
+    "timeOfDay": "night",
+    "onscreen": [
+     "op",
+     "staff"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "I built a fortune-teller costume for a $500 contest. It didn't exist.",
+      "emotion": "confused",
+      "action": "shrug",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I went as Zoltar. Props, a hundred printed fortunes, even a website.",
+      "emotion": "happy",
+      "action": "celebrate",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "Ask Zoltar anything! Also, Zoltar is looking for a marketing job.",
+      "emotion": "happy",
+      "action": "wave",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "The job market has me networking from inside a fortune-telling machine.",
+      "emotion": "embarrassed",
+      "action": "facepalm",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "So, where do I sign up for the $500 costume contest?",
+      "emotion": "happy",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "staff",
+      "text": "[confused] What costume contest?",
+      "emotion": "confused",
+      "action": "shrug",
+      "camera": "closeup:staff"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I asked over ten employees. Even the general manager. Nobody knew anything about it.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "push_in:op"
+     }
+    ]
+   },
+   {
+    "location": "restaurant",
+    "timeOfDay": "night",
+    "onscreen": [
+     "op",
+     "guest"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "But Zoltar was a hit. So everyone who came for a fortune got the bad news.",
+      "emotion": "smug",
+      "action": "idle",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "[whispers] The spirits demand you comment 'Justice for Zoltar' on their Instagram.",
+      "emotion": "smug",
+      "action": "point",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "guest",
+      "text": "[shouting] Justice for Zoltar!",
+      "emotion": "happy",
+      "action": "celebrate",
+      "camera": "closeup:guest"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Turns out, party crowds are remarkably easy to radicalize. They flooded the comments.",
+      "emotion": "laughing",
+      "action": "facepalm",
+      "camera": "two_shot"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "promoter"
+    ],
+    "beats": [
+     {
+      "speaker": "promoter",
+      "text": "Hi, it's the event promoter. We're declaring you the undisputed winner.",
+      "emotion": "nervous",
+      "action": "talk",
+      "camera": "closeup:promoter"
+     },
+     {
+      "speaker": "promoter",
+      "text": "We're sending the $500. And you get VIP access to our next event.",
+      "emotion": "happy",
+      "action": "wave",
+      "camera": "closeup:promoter"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "op",
+      "text": "[laughs] The prophecy has been fulfilled.",
+      "emotion": "laughing",
+      "action": "celebrate",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Years in marketing, and my best campaign ever was rallying strangers for a man in a box.",
+      "emotion": "embarrassed",
+      "action": "shrug",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Would you have let the fake contest slide, or demanded justice for Zoltar?",
+      "emotion": "smug",
+      "action": "point",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "scheduled",
+  "at": "2026-11-19T18:40:08+00:00",
+  "youtube": {
+   "video_id": "a7DMPnyIZTc",
+   "publishAt": "2026-11-20T04:26:00Z",
+   "privacy": "private"
+  },
+  "tiktok": {
+   "buffer_post_id": "6b02560702479690921af109",
+   "dueAt": "2026-11-22T03:04:00.000Z",
+   "replaced": "6aff427745ae3d8cd9f3a972",
+   "host": "uguu"
+  }
+ }
+}

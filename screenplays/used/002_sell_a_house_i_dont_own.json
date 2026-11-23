@@ -1,0 +1,243 @@
+{
+ "source": {
+  "title": "Do I want to sell a house I don’t even own? Sure!",
+  "subreddit": "pettyrevenge",
+  "url": "https://www.reddit.com/r/pettyrevenge/comments/1xjmmej/do_i_want_to_sell_a_house_i_dont_even_own_sure/",
+  "score": 9488,
+  "num_comments": 364,
+  "text": "Context: 10 years ago I moved from one state to another. I never changed my phone number so my area code still matches the state I left. Sometimes I will get spam calls from people thinking I still live there.\n\nHow it started: A couple years ago I started getting calls from a realtor asking if I was interested in selling my property in my previous state. The problem was I did not own any properties in that state. I cleared up the confusion, the realtor thanked me for letting them know, and I figured that was that.\n\nOh how wrong I was. The realtor continued to bombard me with calls, leaving me voicemails asking if I was interested in selling that same property. I initially ignored them but eventually started getting texts. I responded and had the same conversation we had over the phone. I thought ok cool, problem solved.\n\nWell, not quite. I continued to get texts and calls until one day I decided the only way they would learn  is through consequences.\n\nThe day I took action: So I see the damn realtor is calling me AGAIN. I’m sick of it at this point because she will not give up. So I answered. Told her that her timing was crazy because I was looking to sell that property immediately. She excitedly asks if we can meet at the property. I ask her if right then works. She tells me she will be there in 10 minutes. I told her I would arrive in 15 minutes.\n\nThe timeline: In 10ish minutes I get a text saying she has arrived. I tell her I’ll be there in 6 minutes. 10 minutes later she reaches out to check on me. I tell her there’s traffic, an accident, and start giving her updates where I am, naming certain streets and freeway exits (note: I knew generally where the property was so I was able to name surrounding schools, streets, stores, etc). She calls me about 30 minutes in to see if I’d like to reschedule. I tell her no, and ask her to wait to which she agrees. I continue to name more streets and landmarks, appearing as if I’m almost there.\n\nThe aftermath: After almost an hour of her waiting around she calls me again to see if I would like to reschedule. That’s when I tell her not only do I not live in that state anymore, I don’t even own the property. She becomes FURIOUS. She yells at me that I wasted her time. I told her that I had already told her this twice, yet she continued to blow up my phone for months and that she only had herself to blame. \n\nThe result: She never reached out to me again. "
+ },
+ "render_style": null,
+ "written_by": "cursor-agent",
+ "notes": "Phone call staged as cuts between OP's couch and the realtor's car; OP's voice carries the last word as narration over her car.",
+ "screenplay": {
+  "title": "Do I want to sell a house I don't even own? Sure!",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "male",
+    "age": "30s",
+    "voiceTone": "calm",
+    "look": {
+     "hair": "short",
+     "hairColor": "#2c1b10",
+     "skin": "#e0ac69",
+     "outfit": "hoodie",
+     "outfitColor": "#27ae60",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "realtor",
+    "name": "Realtor",
+    "gender": "female",
+    "age": "40s",
+    "voiceTone": "energetic",
+    "look": {
+     "hair": "bob",
+     "hairColor": "#e3c27a",
+     "skin": "#ffdbac",
+     "outfit": "suit",
+     "outfitColor": "#e84393",
+     "accessory": "glasses"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "A realtor kept begging to sell my house. I don't own one.",
+      "emotion": "confused",
+      "action": "shrug",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I moved states ten years ago, but kept my old phone number.",
+      "emotion": "neutral",
+      "action": "idle",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "Again, I don't own any property there. Please stop calling.",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "She didn't. More calls. Voicemails. Texts. For months. So next time, I answered differently.",
+      "emotion": "smug",
+      "action": "think",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "op",
+      "text": "Your timing is crazy. I want to sell that place. Today.",
+      "emotion": "smug",
+      "action": "talk",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "car",
+    "timeOfDay": "day",
+    "onscreen": [
+     "realtor"
+    ],
+    "beats": [
+     {
+      "speaker": "realtor",
+      "text": "[excited] Wonderful! Can we meet at the property? I can be there in ten minutes!",
+      "emotion": "happy",
+      "action": "celebrate",
+      "camera": "closeup:realtor"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "op",
+      "text": "Perfect. I'll be there in fifteen.",
+      "emotion": "happy",
+      "action": "wave",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Ten minutes later, she texted that she'd arrived. I was still on my couch. In another state.",
+      "emotion": "laughing",
+      "action": "idle",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "So sorry! There's an accident on the freeway. Six more minutes.",
+      "emotion": "nervous",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Then I fed her live traffic updates. Real streets, real schools, real freeway exits.",
+      "emotion": "smug",
+      "action": "think",
+      "camera": "push_in:op"
+     }
+    ]
+   },
+   {
+    "location": "car",
+    "timeOfDay": "day",
+    "onscreen": [
+     "realtor"
+    ],
+    "beats": [
+     {
+      "speaker": "realtor",
+      "text": "[sighs] It's been thirty minutes. Do you want to reschedule?",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "closeup:realtor"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "op",
+      "text": "No, please wait! I'm almost at the exit!",
+      "emotion": "nervous",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Almost an hour in, she called one more time. So I told her the truth.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "I don't live in that state anymore. And I don't own the property.",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "car",
+    "timeOfDay": "day",
+    "onscreen": [
+     "realtor"
+    ],
+    "beats": [
+     {
+      "speaker": "realtor",
+      "text": "[shouting] You wasted an hour of my time!",
+      "emotion": "angry",
+      "action": "point",
+      "camera": "shake:realtor"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I reminded her I'd told her twice, and she kept blowing up my phone anyway. She never called again.",
+      "emotion": "smug",
+      "action": "idle",
+      "camera": "push_in:realtor"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Was making her wait an hour too far, or did she earn it?",
+      "emotion": "smug",
+      "action": "idle",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "uploaded",
+  "at": "2026-11-19T08:49:36+00:00",
+  "via": "buffer",
+  "youtube": {
+   "id": "6afeb7e14a35072d027c345a",
+   "status": "sent",
+   "sentAt": "2026-11-19T08:48:41.413Z",
+   "externalLink": "https://www.youtube.com/watch?v=UXhW-14t7Mc",
+   "error": null
+  },
+  "tiktok": {
+   "id": "6afeb7eb73dee4185933ad74",
+   "status": "sent",
+   "sentAt": "2026-11-19T08:49:36.163Z",
+   "externalLink": "https://tiktok.com/@theredditreviews/video/7709801349424221454",
+   "error": null
+  }
+ }
+}

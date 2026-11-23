@@ -1,0 +1,200 @@
+{
+ "source": {
+  "title": "No Bike Racks Means You Won't Bike, Right?",
+  "subreddit": "MaliciousCompliance",
+  "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1wi62v5/no_bike_racks_means_you_wont_bike_right/",
+  "score": 10010,
+  "num_comments": 496,
+  "text": "Small malicious compliance here. I live in a city, and rather than own a car, I bike everywhere. It has its ups and downs, but for the most part works pretty well. I also have a small trailer for my bike, and sometimes I'll make grocery runs with it. Usually when that would happen, I would lock my bike and trailer up at a bike rack, then do my shopping like normal and after paying would load my bike trailer up with my goods.\n\nWell, one day I arrived at the store, which is in one of those classic business plazas ... and the bike racks were gone. All of them. Each had been removed. There was nowhere to lock up my bike and trailer.\n\nWell, that didn't sit right with me. So I rolled my bike through the doors and into the store itself, trailer behind me, and waited at customer service, and then asked \"Since bike racks are no longer provided at this plaza, can I just use my trailer as a shopping cart?\"\n\nThe manager looked down at my bike and then without hesitation said \"Yes.\" Apparently the plaza owner had decided they no longer wanted bikers using the plaza or shopping there and had removed the bike racks to discourage bikers from coming, which the store manager disagreed with. So I shopped using my trailer as a shopping cart, took it through the checkout, and then rolled out.\n\nI've since had to do this once or twice more as other places nearby have also removed their bike racks as property managers wage a silent war against bikers while the city is trying to make biking *more* attractive. It's a minor malicious compliance, but I'm not about to leave my bike outside or stop buying food. Instead I'll just take my bike into the business, trailer included, until they ask me to leave.\n\nNo one has asked me to leave yet."
+ },
+ "render_style": null,
+ "written_by": "cursor-agent",
+ "notes": "Wholesome-petty. The manager's one-word 'Yes.' is the laugh; her reason (the plaza owner) is the reveal.",
+ "screenplay": {
+  "title": "The plaza removed every bike rack. So my bike came shopping with me.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "male",
+    "age": "20s",
+    "voiceTone": "energetic",
+    "look": {
+     "hair": "curly",
+     "hairColor": "#2c1b10",
+     "skin": "#8d5524",
+     "outfit": "tshirt",
+     "outfitColor": "#f1c40f",
+     "accessory": "cap"
+    }
+   },
+   {
+    "id": "manager",
+    "name": "Manager",
+    "gender": "female",
+    "age": "40s",
+    "voiceTone": "warm",
+    "look": {
+     "hair": "bun",
+     "hairColor": "#4a2f1d",
+     "skin": "#f1c27d",
+     "outfit": "uniform",
+     "outfitColor": "#c0392b",
+     "accessory": "glasses"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "street",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "The plaza removed every bike rack. So my bike came shopping with me.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I don't own a car. I bike everywhere, and tow a little trailer for groceries.",
+      "emotion": "happy",
+      "action": "idle",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "[gasps] Wait... where did all the bike racks go?",
+      "emotion": "shocked",
+      "action": "shrug",
+      "camera": "shake:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Gone. Every single one. Nowhere to lock up my bike, or my trailer.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "op",
+      "text": "[sighs] Okay. I guess you're coming inside with me.",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "store",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "manager"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "So I rolled my bike, trailer and all, through the doors and up to customer service.",
+      "emotion": "smug",
+      "action": "walk_in",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "Hi! Since this plaza doesn't have bike racks anymore... can I use my trailer as a shopping cart?",
+      "emotion": "happy",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "narrator",
+      "text": "The manager looked down at my bike. Then back at me. No hesitation.",
+      "emotion": "nervous",
+      "action": "idle",
+      "camera": "push_in:manager"
+     },
+     {
+      "speaker": "manager",
+      "text": "[deadpan] Yes.",
+      "emotion": "neutral",
+      "action": "talk",
+      "camera": "closeup:manager"
+     },
+     {
+      "speaker": "manager",
+      "text": "The plaza owner pulled the racks to keep bikers away. Honestly? I think that's ridiculous.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "closeup:manager"
+     },
+     {
+      "speaker": "narrator",
+      "text": "So my trailer became my cart. Down the aisles, through checkout, and right back out the door.",
+      "emotion": "happy",
+      "action": "walk_in",
+      "camera": "wide"
+     }
+    ]
+   },
+   {
+    "location": "street",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Since then, more places nearby have pulled their racks, while the city tries to get more people biking.",
+      "emotion": "confused",
+      "action": "shrug",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "[laughs] So my bike comes inside now. Nobody's asked me to leave. Yet.",
+      "emotion": "laughing",
+      "action": "celebrate",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Should stores have to keep bike racks, or was I pushing my luck?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "uploaded",
+  "at": "2026-11-21T00:23:30+00:00",
+  "posts": [
+   {
+    "service": "youtube",
+    "id": "6b00e4115e993799d83cbe40",
+    "status": "sent",
+    "sentAt": "2026-11-21T00:21:39.393Z",
+    "externalLink": "https://www.youtube.com/watch?v=VZX69Y_rFwM",
+    "error": null
+   },
+   {
+    "service": "tiktok",
+    "id": "6b00e41520a2d09a0abf9083",
+    "status": "sent",
+    "sentAt": "2026-11-21T00:23:24.507Z",
+    "externalLink": "https://tiktok.com/@theredditreviews/video/7710413329591848206",
+    "error": null
+   }
+  ],
+  "video": "generated_videos/video_20261120_162009.mp4"
+ }
+}

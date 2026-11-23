@@ -1,0 +1,36 @@
+---
+description: Standards for every Reddit-story screenplay before it is rendered or posted
+alwaysApply: true
+---
+
+# Screenplay standards
+
+The Ollama writer follows the same rules (`WRITER_BIBLE` in `pipeline/story_director.py`). Hand-written queue
+screenplays must pass `StoryDirector().rule_problems(sp, 170, 230)` with no problems before rendering.
+
+## Worth watching
+- Ask: would a stranger scrolling past watch to the end and send it to a friend? If not, skip the story.
+- Needs a villain or obstacle who appears on screen, real stakes, escalation, and a payoff where the other side
+  visibly loses, gets exposed, or has to admit it.
+- Skip mild anecdotes. The bike-rack story ("can I use my trailer as a cart?" "Yes.") had no on-screen villain and
+  no confrontation. It should not have been made.
+
+## Only point at what's drawn
+- Characters hold nothing. Each location is a fixed set (`setDressing` in `animator/src/kit.json`).
+- ❌ "I rolled my bike, trailer and all, through the doors." / "The manager looked down at my bike." (no bike drawn)
+- ✅ "I'd left my bike at the door. 'Since you pulled the racks, can my trailer be my cart?'"
+- If the story only works when you can see an undrawn object, skip it.
+
+## Cursing: rare, mild, funny
+- Most videos have none. Use one only when a moment is genuinely absurd and the mood is funny or dramatic.
+- At most one per video, said as a reaction: "Shit, bro." / "God damn, this guy."
+- Only shit, damn, god damn or hell. Never in the title, the hook, the first three beats, the final question, or the
+  post description/caption. Never from or at a kid. No f-word, slurs, sexual words or name-calling.
+
+## Trends: only when they fit
+- Current list: `config/trends.json`. If `updated` is more than 14 days old, search for current memes and refresh it
+  before using any.
+- At most one per video, in a single side line: a narrator aside, a comparison, a character's excuse, or the button.
+- Never in the hook. It must not change what happened, who was right, or the ending. If nothing fits, use none.
+- ✅ Story about a boss denying time off: "Half the office called in sick that week. GTA 6 came out."
+- ❌ Rewriting a refund dispute so it is about GTA 6.

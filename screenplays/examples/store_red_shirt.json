@@ -1,0 +1,35 @@
+{
+  "title": "A stranger demanded my employee discount. I don't work there.",
+  "mood": "funny",
+  "characters": [
+    {"id": "op", "name": "Me", "gender": "female", "age": "20s", "voiceTone": "warm",
+     "look": {"hair": "ponytail", "hairColor": "#4a2f1d", "skin": "#e8b996", "outfit": "tshirt", "outfitColor": "#d94141", "accessory": "none"}},
+    {"id": "karen", "name": "Karen", "gender": "female", "age": "40s", "voiceTone": "stern",
+     "look": {"hair": "bob", "hairColor": "#e3c27a", "skin": "#f1c9a5", "outfit": "dress", "outfitColor": "#8e5cc7", "accessory": "glasses"}},
+    {"id": "manager", "name": "Dave", "gender": "male", "age": "30s", "voiceTone": "calm",
+     "look": {"hair": "short", "hairColor": "#1f1a17", "skin": "#8d5524", "outfit": "uniform", "outfitColor": "#d94141", "accessory": "beard"}}
+  ],
+  "scenes": [
+    {"location": "store", "timeOfDay": "day", "onscreen": ["op", "karen"], "beats": [
+      {"speaker": "narrator", "text": "A stranger demanded my employee discount. I don't even work there.", "emotion": "confused", "action": "shrug", "camera": "wide"},
+      {"speaker": "narrator", "text": "Stay to the end, because the final detail changes everything.", "emotion": "smug", "action": "cross_arms", "camera": "push_in:op"},
+      {"speaker": "narrator", "text": "I was buying cereal in a red shirt, which happens to be the exact color of the store uniform.", "emotion": "neutral", "action": "idle", "camera": "wide"},
+      {"speaker": "karen", "text": "Excuse me! I need my ten percent off. Right now.", "emotion": "annoyed", "action": "hands_on_hips", "camera": "closeup:karen"},
+      {"speaker": "op", "text": "Oh, I'm so sorry, I'm just a customer.", "emotion": "embarrassed", "action": "shrug", "camera": "closeup:op"},
+      {"speaker": "karen", "text": "<loud>That is exactly what a lazy employee would say!</loud>", "emotion": "angry", "action": "point", "camera": "two_shot"}
+    ]},
+    {"location": "store", "timeOfDay": "day", "onscreen": ["op", "karen", "manager"], "beats": [
+      {"speaker": "narrator", "text": "Then the actual manager walked over, and he was also wearing red.", "emotion": "happy", "action": "idle", "camera": "wide"},
+      {"speaker": "manager", "text": "Ma'am, she doesn't work here. I'm the manager. How can I help?", "emotion": "smug", "action": "wave", "camera": "closeup:manager"},
+      {"speaker": "karen", "text": "Then why is she dressed like she works here?", "emotion": "shocked", "action": "point", "camera": "shake:karen"},
+      {"speaker": "manager", "text": "Ma'am... I'm wearing the same shirt. Are you saying I don't work here either?", "emotion": "smug", "action": "shrug", "camera": "closeup:manager"},
+      {"speaker": "narrator", "text": "She looked at my shirt. Then his shirt. Then back at my shirt.", "emotion": "confused", "action": "think", "camera": "push_in:karen"},
+      {"speaker": "karen", "text": "Well... can YOU give me the discount, then?", "emotion": "nervous", "action": "talk", "camera": "closeup:karen"}
+    ]},
+    {"location": "car", "timeOfDay": "evening", "onscreen": ["op"], "beats": [
+      {"speaker": "narrator", "text": "He did. Her coupon was real the whole time. She just never asked an actual employee.", "emotion": "laughing", "action": "facepalm", "camera": "closeup:op"},
+      {"speaker": "op", "text": "[laugh] I am never wearing this shirt shopping again.", "emotion": "laughing", "action": "celebrate", "camera": "closeup:op"},
+      {"speaker": "narrator", "text": "So... was I wrong for laughing the whole way home?", "emotion": "smug", "action": "shrug", "camera": "wide"}
+    ]}
+  ]
+}

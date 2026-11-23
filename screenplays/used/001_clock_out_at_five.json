@@ -1,0 +1,206 @@
+{
+ "source": {
+  "title": "Boss: “Clock out exactly at 5:00 or you’re written up. No exceptions.”   So I did",
+  "subreddit": "MaliciousCompliance",
+  "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1wkwmoh/boss_clock_out_exactly_at_500_or_youre_written_up/",
+  "score": 22535,
+  "num_comments": 555,
+  "text": "My old office had a strict “no overtime without pre-approval” policy. Fair enough. But my boss was the type who would dump last-minute work on you at 4:50 and then act shocked when you stayed late.\n\nOne Friday he hands me a stack of client files at 4:47 and says, “I need these reviewed and the summary email sent before you leave.”\n\nI look at the clock. “It’s 4:47. Policy says I have to be clocked out by 5:00 or I get written up.”\n\nHe waves it off. “Just finish it. Don’t be difficult.”\n\nI smile and say, “Of course.”\n\nI open the first file, start reading… very… slowly. At 4:59 I save my progress, close the documents, and stand up.\n\nBoss: “Where are you going? You’re not done.”\n\nMe: “It’s 5:00. Policy is clear. Clock out exactly at 5:00 or written up. No exceptions.”\n\nI clock out, grab my bag, and walk out while he’s still standing there with his mouth open.\n\nMonday morning he calls me into his office, red-faced. “You left those files unfinished on purpose.”\n\nMe: “I followed the rule you enforce every single day. Would you like me to write myself up for the overtime I didn’t do?”\n\nHe never gave me another last-minute dump after that. The files somehow got finished by someone else over the weekend.\n\nSometimes the best way to win is to follow the rules harder than they ever wanted."
+ },
+ "render_style": null,
+ "written_by": "cursor-agent",
+ "notes": "The boss's own no-overtime rule is the trap; button is that the files still got done, by someone else, on the weekend.",
+ "screenplay": {
+  "title": "Boss: 'Clock out at 5:00 or you're written up.' So I did.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "female",
+    "age": "30s",
+    "voiceTone": "warm",
+    "look": {
+     "hair": "bun",
+     "hairColor": "#3b2417",
+     "skin": "#c68642",
+     "outfit": "sweater",
+     "outfitColor": "#2f80ed",
+     "accessory": "glasses"
+    }
+   },
+   {
+    "id": "boss",
+    "name": "Boss",
+    "gender": "male",
+    "age": "50s",
+    "voiceTone": "stern",
+    "look": {
+     "hair": "short",
+     "hairColor": "#8a8a8a",
+     "skin": "#f1c27d",
+     "outfit": "suit",
+     "outfitColor": "#8e2d2d",
+     "accessory": "beard"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "boss"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "My boss writes people up for working late. So I didn't.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "One Friday at 4:47, he dropped a stack of client files on my desk.",
+      "emotion": "annoyed",
+      "action": "idle",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "boss",
+      "text": "Review all of these and send the summary email before you leave.",
+      "emotion": "neutral",
+      "action": "point",
+      "camera": "closeup:boss"
+     },
+     {
+      "speaker": "op",
+      "text": "It's 4:47. Your policy says I clock out at 5:00, or I get written up.",
+      "emotion": "confused",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "boss",
+      "text": "[sighs] Just finish it. Don't be difficult.",
+      "emotion": "annoyed",
+      "action": "hands_on_hips",
+      "camera": "closeup:boss"
+     },
+     {
+      "speaker": "op",
+      "text": "Of course.",
+      "emotion": "happy",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "So I opened the first file, and read it... very... slowly.",
+      "emotion": "smug",
+      "action": "think",
+      "camera": "push_in:op"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "evening",
+    "onscreen": [
+     "op",
+     "boss"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "At 4:59, I saved my progress, closed everything, and stood up.",
+      "emotion": "happy",
+      "action": "walk_in",
+      "camera": "wide"
+     },
+     {
+      "speaker": "boss",
+      "text": "[shouting] Where are you going? You're not done!",
+      "emotion": "shocked",
+      "action": "point",
+      "camera": "shake:boss"
+     },
+     {
+      "speaker": "op",
+      "text": "It's 5:00. Clock out at exactly 5:00, or get written up. No exceptions. Your words.",
+      "emotion": "smug",
+      "action": "wave",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I clocked out and walked right past him. His mouth was still open.",
+      "emotion": "laughing",
+      "action": "walk_in",
+      "camera": "two_shot"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "boss"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Monday morning, he called me into his office. His face was bright red.",
+      "emotion": "nervous",
+      "action": "idle",
+      "camera": "wide"
+     },
+     {
+      "speaker": "boss",
+      "text": "You left those files unfinished on purpose!",
+      "emotion": "angry",
+      "action": "point",
+      "camera": "push_in:boss"
+     },
+     {
+      "speaker": "op",
+      "text": "I followed the rule you enforce every single day.",
+      "emotion": "neutral",
+      "action": "shrug",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "[deadpan] Would you like me to write myself up for the overtime I didn't do?",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He never dropped a 4:47 surprise on me again. Someone else finished those files... over the weekend.",
+      "emotion": "happy",
+      "action": "celebrate",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Would you have stayed until 5:01, or walked out like I did?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "uploaded",
+  "at": "2026-11-19T06:54:21+00:00",
+  "youtube_video_id": "k7Ep9yenTyU",
+  "run_id": "e97b797d0df2"
+ }
+}

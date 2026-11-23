@@ -1,0 +1,32 @@
+{
+  "moods": ["funny", "dramatic", "tense", "wholesome"],
+  "locations": ["kitchen", "living_room", "bedroom", "office", "classroom", "restaurant", "store", "street", "car", "park"],
+  "timesOfDay": ["day", "evening", "night"],
+  "emotions": ["neutral", "happy", "laughing", "sad", "crying", "angry", "shocked", "smug", "nervous", "confused", "annoyed", "embarrassed"],
+  "actions": ["idle", "talk", "wave", "point", "hands_on_hips", "cross_arms", "facepalm", "shrug", "jump", "walk_in", "celebrate", "cry", "think"],
+  "shots": ["wide", "two_shot", "closeup", "push_in", "shake"],
+  "genders": ["female", "male"],
+  "ages": ["kid", "teen", "20s", "30s", "40s", "50s", "elderly"],
+  "hairStyles": ["short", "long", "bun", "ponytail", "curly", "bald", "spiky", "bob"],
+  "outfits": ["hoodie", "tshirt", "suit", "dress", "uniform", "sweater", "apron"],
+  "accessories": ["none", "glasses", "beard", "cap"],
+  "voiceTones": ["warm", "bright", "deep", "raspy", "calm", "energetic", "stern", "sweet"],
+  "speechTags": {
+    "inline": ["laughs", "chuckles", "giggles", "sighs", "gasps", "groans", "scoffs", "gulps", "whispers", "shouting", "softly", "sarcastic", "deadpan", "excited", "nervous", "crying", "annoyed", "smug", "confused", "hesitant"],
+    "wrapping": []
+  },
+  "renderStyles": ["2d", "3d", "mixed"],
+  "maxCharacters": 4,
+  "setDressing": {
+    "kitchen": "counter with cabinets, wall cupboards, fridge, window, a red pot and some fruit, wall clock, hanging lamps",
+    "living_room": "blue sofa with cushions, coffee table with a mug, rug, floor lamp, two framed pictures, bookshelf, window, potted plant",
+    "bedroom": "bed with pillow and blanket, nightstand with lamp, wardrobe, window, framed picture, rug",
+    "office": "two desks with glowing monitors and chairs, whiteboard, water cooler, potted plant, wall clock, window",
+    "classroom": "chalkboard, teacher's desk with a globe, two student desks, posters, wall clock, window",
+    "restaurant": "long counter with stools, menu board, hanging lamps, one round table with plates and a candle, framed picture",
+    "store": "two shelves of colored products, checkout counter with a few items, a register stand, store sign",
+    "street": "sidewalk, road, row of houses, two trees, streetlight, one parked yellow car",
+    "park": "grass, path, pond, trees, bench, bushes, lamp post, white fence",
+    "car": "front seats, dashboard and steering wheel seen from inside a moving car, trees passing outside"
+  }
+}

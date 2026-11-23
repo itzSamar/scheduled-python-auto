@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "safety": {
+    "mode": "strict",
+    "use_ollama_if_available": true
+  },
+  "video": {
+    "short_max_seconds": 90,
+    "long_max_seconds": 150,
+    "music_on_max_seconds": 60
+  },
+  "target_word_count": {
+    "min": 170,
+    "max": 230
+  },
+  "target_word_count_long": {
+    "min": 320,
+    "max": 430
+  },
+  "experiments": {
+    "hook_tease_style": {
+      "type": "categorical",
+      "variants": [
+        {
+          "id": "twist_tease",
+          "weight": 0.4,
+          "guidance": "hint that the ending flips the situation, using a concrete detail from this story, without revealing it (e.g. 'The coupon in her hand is the best part.')"
+        },
+        {
+          "id": "moral_judgment",
+          "weight": 0.2,
+          "guidance": "set up the viewer as the judge of one specific choice OP makes later (e.g. 'Decide if I should have stayed quiet.')"
+        },
+        {
+          "id": "stakes_escalation",
+          "weight": 0.2,
+          "guidance": "preview how far it escalates with one concrete image from later in the story (e.g. 'By the end, the manager was wearing my shirt too.')"
+        },
+        {
+          "id": "no_tease",
+          "weight": 0.2
+        }
+      ]
+    },
+    "ending_question_style": {
+      "type": "categorical",
+      "variants": [
+        {
+          "id": "direct_question",
+          "weight": 0.6,
+          "guidance": "ask what the viewer would have done at the story's key decision, naming that decision"
+        },
+        {
+          "id": "aita_prompt",
+          "weight": 0.4,
+          "guidance": "ask the viewer to judge whether OP was wrong for the specific thing they did, in plain words (no 'AITA' acronym)"
+        }
+      ]
+    },
+    "render_style": {
+      "type": "categorical",
+      "variants": [
+        {
+          "id": "mixed",
+          "weight": 0.34
+        },
+        {
+          "id": "3d",
+          "weight": 0.33
+        },
+        {
+          "id": "2d",
+          "weight": 0.33
+        }
+      ]
+    }
+  }
+}

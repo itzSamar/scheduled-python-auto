@@ -1,0 +1,43 @@
+{
+  "updated": "2026-11-20",
+  "max_age_days": 21,
+  "trends": [
+    {
+      "name": "GTA 6 launch",
+      "match": ["gta 6", "gta six", "gta vi", "grand theft auto"],
+      "what": "GTA 6 came out Nov 19, 2026 after a 13-year wait. Consoles sold out and people skipped work and pulled all-nighters to play it.",
+      "fits": "work, school, roommates, siblings, waiting a long time, calling in sick, sold-out stores, anything that took forever",
+      "examples": [
+        "Half the office called in sick that week. GTA 6 came out.",
+        "I waited longer for that refund than people waited for GTA 6."
+      ]
+    },
+    {
+      "name": "In this town",
+      "match": ["in this town", "huss"],
+      "what": "A Roblox storytime: 'In this town, everybody goes out partying except me.' Format: 'In this <place>, everybody <does X>. Except me.'",
+      "fits": "narrator setting up how OP is the odd one out at work, school, a family or a neighborhood",
+      "examples": [
+        "In this office, everybody takes a lunch break. Except me."
+      ]
+    },
+    {
+      "name": "I got so mad",
+      "match": ["i got so mad", "got so mad"],
+      "what": "Comment trend about doing something absurdly over the top 'because I got so mad'.",
+      "fits": "narrator right before OP's petty or malicious-compliance move",
+      "examples": [
+        "I got so mad, I read the entire handbook. Out loud."
+      ]
+    },
+    {
+      "name": "General Grant on the thermostat",
+      "match": ["general grant"],
+      "what": "Diary of a Wimpy Kid: Rodrick Rules line, 'What was General Grant doing on the thermostat?' Used for an angry adult demanding answers about something tiny.",
+      "fits": "a parent, landlord or boss interrogating someone about a small household or office thing",
+      "examples": [
+        "She stared at me like I'd put General Grant on the thermostat."
+      ]
+    }
+  ]
+}

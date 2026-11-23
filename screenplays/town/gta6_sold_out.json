@@ -1,0 +1,16 @@
+{
+  "id": "gta6_sold_out",
+  "title": "In this town, GTA 6 sold out",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "voice_name": "Liam",
+  "question": "Worth it?",
+  "lines": [
+    {"shot": "store", "text": "[deadpan] In this town, GTA 6 sold out."},
+    {"shot": "crowd", "text": "One copy. Everybody wanted it."},
+    {"shot": "mayor", "text": "The mayor didn't get it."},
+    {"shot": "mayor", "text": "So he launched the nukes."},
+    {"shot": "boom", "text": "Now the town is gone."},
+    {"shot": "aftermath", "text": "And still no GTA 6."},
+    {"shot": "aftermath", "text": "Worth it?"}
+  ]
+}

@@ -1,0 +1,248 @@
+{
+ "source": {
+  "title": "Dude paid for one beer with a $100 bill at last call every week. So he got his change in ones.",
+  "subreddit": "pettyrevenge",
+  "url": "https://www.reddit.com/r/pettyrevenge/comments/1xt5jht/dude_paid_for_one_beer_with_a_100_bill_at_last/",
+  "score": 7422,
+  "num_comments": 272,
+  "text": "We serve until 2 at the bar i work at and for about two months there was a guy who'd show up every friday around 1:45, order one guinness, and hand me a crisp 100. every. SINGLE. time. beer is like 7.50.\n\nif you've never closed a bar, by 1:45 i'm already pulling big bills out of my drawer and getting ready to count down. a hundred at last call means digging back into the drop, making change out of whatever's left, and recounting later. the first couple times i asked if he had anything smaller. he'd smile and say \"that's all they gave me at the atm\"..\n\nthe atm hands out twenties, so sure buddy :)\n\nSo i started saving one dollar bills, every single one i got after midnight went in a separate stack under the register instead of the drawer (yea yea im not supposed to do that but if the owner knew what was going on he'd think its funny). by 1:45 the next friday i had a little over a hundred of them 😭\n\nhe ordered his guinness and handed me the hundred. i said sure and started counting his change out loud onto the bar, extra slow just to be extra petty. I put the last one down and told him have a good night...\n\nHe had to hold the stack with both hands to get it in his pocket. didn't tip, obviously, but looked like he didnt really even care which I thought was hilarious. every following week he paid me with a 20. maybe cliche but i thought it was pretty petty of me!"
+ },
+ "render_style": "3d",
+ "written_by": "cursor-agent",
+ "notes": "Bar last-call hundred-dollar guy gets change in ones. No undrawn bills pointed at; counting is narrated. No curse needed.",
+ "screenplay": {
+  "title": "He paid for one beer with a hundred. Every. Single. Friday.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "female",
+    "age": "20s",
+    "voiceTone": "energetic",
+    "look": {
+     "hair": "ponytail",
+     "hairColor": "#3b2a1a",
+     "skin": "#e0ac69",
+     "outfit": "tshirt",
+     "outfitColor": "#2fb3c4",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "guy",
+    "name": "Hundred Guy",
+    "gender": "male",
+    "age": "30s",
+    "voiceTone": "calm",
+    "look": {
+     "hair": "short",
+     "hairColor": "#1a1a1a",
+     "skin": "#c68642",
+     "outfit": "hoodie",
+     "outfitColor": "#e0574f",
+     "accessory": "beard"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "restaurant",
+    "timeOfDay": "night",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Every Friday at last call, one guy ordered a beer with a hundred.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "We close at two. Beer is seven fifty. And he shows up at one forty-five.",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "For two months. Same order. Same crisp hundred. Every. Single. Time.",
+      "emotion": "annoyed",
+      "action": "facepalm",
+      "camera": "push_in:op"
+     }
+    ]
+   },
+   {
+    "location": "restaurant",
+    "timeOfDay": "night",
+    "onscreen": [
+     "op",
+     "guy"
+    ],
+    "beats": [
+     {
+      "speaker": "guy",
+      "text": "One Guinness.",
+      "emotion": "neutral",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "op",
+      "text": "Anything smaller? I'm closing the drawer.",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "guy",
+      "text": "[smug] That's all the ATM gave me.",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "closeup:guy"
+     },
+     {
+      "speaker": "narrator",
+      "text": "ATMs spit twenties. Sure, buddy.",
+      "emotion": "annoyed",
+      "action": "facepalm",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "restaurant",
+    "timeOfDay": "night",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "So after midnight, every single I got went into a secret stack under the register.",
+      "emotion": "smug",
+      "action": "think",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "[chuckles] By next Friday, I had over a hundred ones ready and waiting.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "restaurant",
+    "timeOfDay": "night",
+    "onscreen": [
+     "op",
+     "guy"
+    ],
+    "beats": [
+     {
+      "speaker": "guy",
+      "text": "One Guinness.",
+      "emotion": "neutral",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "op",
+      "text": "[deadpan] Sure.",
+      "emotion": "smug",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I counted his change out loud. Onto the bar. Extra slow. One. Two. Three...",
+      "emotion": "smug",
+      "action": "point",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "op",
+      "text": "Ninety-two fifty. Have a good night.",
+      "emotion": "smug",
+      "action": "wave",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "guy",
+      "text": "[sighs] ...Okay.",
+      "emotion": "embarrassed",
+      "action": "shrug",
+      "camera": "closeup:guy"
+     },
+     {
+      "speaker": "narrator",
+      "text": "He stuffed both pockets. Didn't tip. Didn't even look mad. I thought it was hilarious.",
+      "emotion": "laughing",
+      "action": "celebrate",
+      "camera": "two_shot"
+     }
+    ]
+   },
+   {
+    "location": "restaurant",
+    "timeOfDay": "night",
+    "onscreen": [
+     "op",
+     "guy"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Every Friday after that, he paid with a twenty. Problem solved.",
+      "emotion": "happy",
+      "action": "idle",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "[laughs] Petty? Absolutely. Worth it? Also yes.",
+      "emotion": "laughing",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Would you have given him the ones, or just taken the hundred?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "uploaded",
+  "at": "2026-11-22T00:49:22+00:00",
+  "posts": [
+   {
+    "service": "youtube",
+    "id": "6b023ba1d864a01105875c3c",
+    "status": "sent",
+    "sentAt": "2026-11-22T00:47:32.962Z",
+    "externalLink": "https://www.youtube.com/watch?v=moaMjfgK4io",
+    "error": null
+   },
+   {
+    "service": "tiktok",
+    "id": "6b023ba6d5eabfb8cc70c3c9",
+    "status": "sent",
+    "sentAt": "2026-11-22T00:49:17.473Z",
+    "externalLink": "https://tiktok.com/@theredditreviews/video/7710791046690508045",
+    "error": null
+   }
+  ],
+  "video": "generated_videos/video_20261121_164506.mp4"
+ }
+}

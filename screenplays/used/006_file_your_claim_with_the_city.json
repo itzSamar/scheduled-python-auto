@@ -1,0 +1,322 @@
+{
+ "source": {
+  "title": "My landlord told me to go ahead and report her to the city, it did not go as planned",
+  "subreddit": "MaliciousCompliance",
+  "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1wds9vf/my_landlord_told_me_to_go_ahead_and_report_her_to/",
+  "score": 37241,
+  "num_comments": 914,
+  "text": "A few months ago I noticed the paint on the ceiling in our bathroom was starting to peel in our new apartment. In general, asking my landlord to address things hasn't gone as smooth as I'd like and this was no different. The paint got progressively worse until it was falling in bits and pieces on the floor. It's like the ventilation fan doesn't really do anything and the moisture is making the new paint come off in huge chunks.\n\nI have had a lot of bad landlords thanks to the slumlord issue in my city so I have a pretty good handle on what my landlord is supposed to do when something like this needs to get done. I'm not dealing with a slumlord though, just an out state owner of the home we rent who doesn't necessarily like us bothering her. I get it. \n\nSo I went ahead and took the timeline she legally has to fix the issue (21 days), multiplied it by 3 to be super patient and rounded up to 3 months. In those 3 months, the contractors she said would come failed to show up a whopping 6 times and she started blaming me for not being able to plan with them even after I showed her they aren't answering my calls or responding to texts to confirm when they can actually come out and do the repair. I work from home, the issue was not my availability to let someone into the unit.\n\nFinally, at 3 months and some change, I asked her if the repairs were ever going to get done and dropped the hint that I knew the legality of these things by mentioning our city's code enforcement offices. I've used them before, they've helped tremendously and put fines on the landlord when they don't fix things after they inspect the unit and tell them to get it together. I showed her the document from the city website that lays out the timelines for different repairs and that she was well outside of the 21 days she's given for defective paint. \n\nHer response surprised me. She said \"That is not relevant to me. File your claim with the city.\" I responded \"Oh ok.\" It took about 5 minutes to fill out the form on the website and about an hour before I got a call scheduling an inspector to come out and take a look. \n\nI genuinely have no clue why a landlord would welcome one of these inspections. If you're guessing the inspector took a look around and found way more than just peeling paint that she needed to fix... you would be so so right.\n\nThey found a fire alarm that wasn't working, took note of the garbage around the property, and found windows that were boarded up in the basement that needed to be real windows to satisfy the city's 'at least 2 real windows in basements' rule or whatever.\n\nWhile we were down in the basement I figured I'd ask the inspector about our breaker. A few weeks ago, my upstairs neighbor had the power go out in one of her rooms. She asked us to turn our breaker off and on to see if that would work and it did! The inspector told me that something like this needed to be a phone call to the utility company. Well, I can make a phone call!\n\nThe electric company scheduled someone within 2 days to come out and take a look and whaddya know? The wires are way more mixed than we thought. My upstairs neighbor has been paying for the basement and the kitchen AND bathroom in my unit. I have been paying for the entire top floor of her apartment. \n\nI didn't know it but it turns out that ,when this happens, the landlord has 21 days to have a licensed electrician come out and unfuck the wiring before the entire electrical bill for both apartments legally goes into her name. \n\nAll I needed was the peeling paint fixed but now I'm going to enjoy living in a unit that is entirely 100% up to code and maybe save some money in the process. Sounds good to me!"
+ },
+ "render_style": null,
+ "written_by": "cursor-agent",
+ "notes": "Landlord says 'file your claim with the city'; the inspection snowballs into crossed wiring and a 21-day deadline in her name. One GTA 6 aside (contractor no-shows) and one mild curse at the wiring reveal. No undrawn object is pointed at: paint, alarm, windows and breaker are only told.",
+ "screenplay": {
+  "title": "Landlord: 'File your claim with the city.' So I did.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "female",
+    "age": "30s",
+    "voiceTone": "calm",
+    "look": {
+     "hair": "ponytail",
+     "hairColor": "#3b2a1a",
+     "skin": "#c68642",
+     "outfit": "hoodie",
+     "outfitColor": "#2fb3c4",
+     "accessory": "glasses"
+    }
+   },
+   {
+    "id": "landlord",
+    "name": "Landlord",
+    "gender": "female",
+    "age": "50s",
+    "voiceTone": "stern",
+    "look": {
+     "hair": "bob",
+     "hairColor": "#b8b8b8",
+     "skin": "#f1c27d",
+     "outfit": "suit",
+     "outfitColor": "#8e5cc7",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "inspector",
+    "name": "Inspector",
+    "gender": "male",
+    "age": "50s",
+    "voiceTone": "deep",
+    "look": {
+     "hair": "bald",
+     "hairColor": "#3b2a1a",
+     "skin": "#8d5524",
+     "outfit": "uniform",
+     "outfitColor": "#34495e",
+     "accessory": "beard"
+    }
+   },
+   {
+    "id": "tech",
+    "name": "Tech",
+    "gender": "male",
+    "age": "20s",
+    "voiceTone": "energetic",
+    "look": {
+     "hair": "spiky",
+     "hairColor": "#1a1a1a",
+     "skin": "#e0ac69",
+     "outfit": "uniform",
+     "outfitColor": "#f2b134",
+     "accessory": "cap"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "My landlord dared me to call the city on her. So I did.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "The bathroom paint is falling on the floor now. Any update?",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "landlord"
+    ],
+    "beats": [
+     {
+      "speaker": "landlord",
+      "text": "The contractors say you never answer. Work it out.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "closeup:landlord"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "I work from home. Still, six no-shows. Even GTA 6 showed up eventually.",
+      "emotion": "annoyed",
+      "action": "facepalm",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "op",
+      "text": "It's been three months. The city only gives you twenty-one days.",
+      "emotion": "smug",
+      "action": "point",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "landlord"
+    ],
+    "beats": [
+     {
+      "speaker": "landlord",
+      "text": "[scoffs] That is not relevant to me. File your claim with the city.",
+      "emotion": "smug",
+      "action": "hands_on_hips",
+      "camera": "closeup:landlord"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "op",
+      "text": "[deadpan] Oh. Okay.",
+      "emotion": "neutral",
+      "action": "shrug",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Five minutes online. An hour later, an inspector was booked.",
+      "emotion": "smug",
+      "action": "think",
+      "camera": "wide"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "inspector"
+    ],
+    "beats": [
+     {
+      "speaker": "inspector",
+      "text": "Peeling paint, sure. But your smoke alarm's dead.",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "inspector",
+      "text": "Plus garbage everywhere and boarded-up basement windows. She's got a list.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:inspector"
+     },
+     {
+      "speaker": "op",
+      "text": "Weird question. My neighbor's power went out, and flipping MY breaker fixed it. Normal?",
+      "emotion": "confused",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "inspector",
+      "text": "[gulps] No. Call the electric company.",
+      "emotion": "nervous",
+      "action": "facepalm",
+      "camera": "closeup:inspector"
+     }
+    ]
+   },
+   {
+    "location": "kitchen",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "tech"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Two days later, the electric company came out.",
+      "emotion": "happy",
+      "action": "idle",
+      "camera": "wide"
+     },
+     {
+      "speaker": "tech",
+      "text": "Your wires are crossed. Your neighbor pays for your kitchen and bathroom.",
+      "emotion": "confused",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "tech",
+      "text": "[deadpan] And you've been paying for her entire top floor.",
+      "emotion": "neutral",
+      "action": "point",
+      "camera": "closeup:tech"
+     },
+     {
+      "speaker": "op",
+      "text": "[gasps] Her WHOLE floor? Shit, bro.",
+      "emotion": "shocked",
+      "action": "facepalm",
+      "camera": "shake:op"
+     },
+     {
+      "speaker": "tech",
+      "text": "Fun part? She has twenty-one days to fix it, or both bills go in her name.",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "closeup:tech"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "landlord"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "The same twenty-one days she ignored for three months.",
+      "emotion": "shocked",
+      "action": "facepalm",
+      "camera": "push_in:landlord"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "evening",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "op",
+      "text": "[chuckles] I just wanted the paint fixed. Not relevant to me, though.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "She told me to file it. Should I have stopped at the paint?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "uploaded",
+  "at": "2026-11-21T02:49:21+00:00",
+  "youtube": {
+   "video_id": "0sEygPSkAOw",
+   "via": "youtube_api",
+   "reason": "buffer youtube daily limit (2) reached"
+  },
+  "tiktok": {
+   "via": "buffer",
+   "id": "6b0106495e993799d8482043",
+   "status": "sent",
+   "sentAt": "2026-11-21T02:49:20.114Z",
+   "externalLink": "https://tiktok.com/@theredditreviews/video/7710450879006084365",
+   "error": null
+  },
+  "video": "generated_videos/video_20261120_183447.mp4"
+ }
+}

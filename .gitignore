@@ -25,6 +25,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!animator/src/lib/
 lib64/
 parts/
 sdist/
@@ -54,3 +55,14 @@ Thumbs.db
 *.log
 
 used_topics.json
+
+# Runtime state (history DB, topic lists, autoposter state, voice cache)
+data/
+logs/
+
+# Animated pipeline
+voice_cache/
+animator/node_modules/
+animator/out/
+# Local secrets written by `elevenlabs onboard`
+/.env.local

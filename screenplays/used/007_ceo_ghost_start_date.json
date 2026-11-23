@@ -1,0 +1,250 @@
+{
+ "source": {
+  "title": "CEO made me wait 3 hours, walk in the summer heat to his house, and then asked \"why should I pay you that much?\" So I ghosted them on my start date.",
+  "subreddit": "pettyrevenge",
+  "url": "https://www.reddit.com/r/pettyrevenge/comments/1xtdmvb/ceo_made_me_wait_3_hours_walk_in_the_summer_heat/",
+  "score": 6099,
+  "num_comments": 364,
+  "text": "A couple of years ago, I was working as a Software Engineer at one of the top companies in my country. I decided it was time for a change and applied to a competitor in the exact same industry. Because I already knew all the ins and outs of their business model, I breezed through the first three rounds of interviews.\n\nFor the final round, I had to meet the big boss—the owner of the company.\n\nMy interview was scheduled for 9:00 AM sharp, and the owner had a flight abroad later that same day. Being a responsible human, I showed up at 8:45 AM. They put me on an empty floor to wait. Nobody offered me coffee, snacks, or even a glass of water.\n\n9:00 AM came and went. Then 10:00 AM. Then 11:00 AM.\n\nFinally, at 11:15 AM, someone told me the owner wasn't coming to the office, and I’d have to go to his house instead. They assigned a staff member to escort me, and we literally walked for 20 minutes in the blazing summer heat to get to his residence. Once we arrived, I got to sit around for another 20 minutes before he finally graced me with his presence.\n\nAfter a tiny bit of small talk, he looked me up and down and casually said, \"***You’re such a young guy, why should I pay you that much?!***\"\n\nSomething inside me snapped. Right then and there, I decided I was going to take this job just to burn them later.\n\nThey actually ended up extending the offer. My official start date was September 1st, and I was even chatting with HR on August 24th acting all excited to join.\n\nPlot twist: I had another, much better job opportunity simmering on the back burner. On August 26th, that second company officially came through with a start date of September 10th. I accepted immediately.\n\nWhen September 1st rolled around—my big \"first day\" at the sweaty-walk company—I simply put my phone on silent, went back to sleep, and went completely No Contact.\n\nThey blew up my phone and started throwing around empty threats about legal action and \"blacklisting\" me. I ignored every single call and message. Spoiler alert: nothing happened, and I'm thriving at the better company.\n\n**TL;DR**: Company owner left me dehydrated for 2+ hours, had me walk 20 minutes in the summer heat to his house for an interview, and insulted my salary expectations because of my age. I accepted their offer, got a better one days before starting, and completely ghosted them on Day 1.\n\nNote: English is not my native language, used AI to fix grammar & errors."
+ },
+ "render_style": "2d",
+ "written_by": "cursor-agent",
+ "notes": "CEO wait + heat walk + age insult, then ghost on day one. Mild curse on the walk reveal. No undrawn props pointed at.",
+ "screenplay": {
+  "title": "CEO made me wait three hours, then asked why I cost that much.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "male",
+    "age": "20s",
+    "voiceTone": "calm",
+    "look": {
+     "hair": "short",
+     "hairColor": "#2c1b10",
+     "skin": "#c68642",
+     "outfit": "suit",
+     "outfitColor": "#4a7bd0",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "ceo",
+    "name": "CEO",
+    "gender": "male",
+    "age": "50s",
+    "voiceTone": "stern",
+    "look": {
+     "hair": "bald",
+     "hairColor": "#3b2a1a",
+     "skin": "#f1c27d",
+     "outfit": "suit",
+     "outfitColor": "#e0574f",
+     "accessory": "beard"
+    }
+   },
+   {
+    "id": "staff",
+    "name": "Staff",
+    "gender": "female",
+    "age": "30s",
+    "voiceTone": "nervous",
+    "look": {
+     "hair": "bun",
+     "hairColor": "#3b2a1a",
+     "skin": "#e0ac69",
+     "outfit": "sweater",
+     "outfitColor": "#8e5cc7",
+     "accessory": "glasses"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "My final interview was at nine. The CEO showed up at noon.",
+      "emotion": "annoyed",
+      "action": "cross_arms",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "Hello? Still waiting. It's ten.",
+      "emotion": "annoyed",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Empty floor. No water. Eleven o'clock. Still nothing.",
+      "emotion": "annoyed",
+      "action": "idle",
+      "camera": "push_in:op"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "staff"
+    ],
+    "beats": [
+     {
+      "speaker": "staff",
+      "text": "[hesitant] He's not coming here. We have to walk to his house.",
+      "emotion": "nervous",
+      "action": "talk",
+      "camera": "two_shot"
+     },
+     {
+      "speaker": "op",
+      "text": "In this heat? God damn, this guy.",
+      "emotion": "annoyed",
+      "action": "facepalm",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "street",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "staff"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Twenty minutes of summer heat. Then twenty more minutes waiting inside.",
+      "emotion": "annoyed",
+      "action": "walk_in",
+      "camera": "wide"
+     }
+    ]
+   },
+   {
+    "location": "living_room",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "ceo"
+    ],
+    "beats": [
+     {
+      "speaker": "ceo",
+      "text": "[scoffs] You're such a young guy. Why should I pay you that much?",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:ceo"
+     },
+     {
+      "speaker": "op",
+      "text": "[deadpan] Interesting question.",
+      "emotion": "smug",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Something snapped. I decided to take the job just to burn them later.",
+      "emotion": "smug",
+      "action": "think",
+      "camera": "push_in:op"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "They sent the offer. Start date: September first.",
+      "emotion": "happy",
+      "action": "wave",
+      "camera": "wide"
+     },
+     {
+      "speaker": "op",
+      "text": "Can't wait to join the team!",
+      "emotion": "happy",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Days later, a better company came through. I accepted immediately.",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "closeup:op"
+     }
+    ]
+   },
+   {
+    "location": "bedroom",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "September first, my 'first day,' I silenced my phone and went back to sleep.",
+      "emotion": "smug",
+      "action": "idle",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "[chuckles] Legal threats. Blacklists. I ignored every one.",
+      "emotion": "laughing",
+      "action": "cross_arms",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Nothing happened. I'm thriving at the better company.",
+      "emotion": "happy",
+      "action": "celebrate",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Was ghosting them too far, or did that walk earn it?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "uploaded",
+  "at": "2026-11-21T19:02:25+00:00",
+  "youtube": {
+   "video_id": "lUO8ATZw5T4",
+   "via": "youtube_api",
+   "reason": "buffer youtube daily limit (2/24h)"
+  },
+  "tiktok": {
+   "via": "buffer",
+   "externalLink": "https://tiktok.com/@theredditreviews/video/7710701514502819086",
+   "buffer_post_id": "6b01ea45142c9575193894bd"
+  },
+  "video": "generated_videos/video_20261121_105858.mp4"
+ }
+}

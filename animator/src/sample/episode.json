@@ -1,0 +1,4029 @@
+{
+ "screenplay": {
+  "title": "A stranger demanded my employee discount. I don't work there.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "female",
+    "age": "20s",
+    "voiceTone": "warm",
+    "look": {
+     "hair": "ponytail",
+     "hairColor": "#4a2f1d",
+     "skin": "#e8b996",
+     "outfit": "tshirt",
+     "outfitColor": "#d94141",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "karen",
+    "name": "Karen",
+    "gender": "female",
+    "age": "40s",
+    "voiceTone": "stern",
+    "look": {
+     "hair": "bob",
+     "hairColor": "#e3c27a",
+     "skin": "#f1c9a5",
+     "outfit": "dress",
+     "outfitColor": "#8e5cc7",
+     "accessory": "glasses"
+    }
+   },
+   {
+    "id": "manager",
+    "name": "Dave",
+    "gender": "male",
+    "age": "30s",
+    "voiceTone": "calm",
+    "look": {
+     "hair": "short",
+     "hairColor": "#1f1a17",
+     "skin": "#8d5524",
+     "outfit": "uniform",
+     "outfitColor": "#d94141",
+     "accessory": "beard"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "store",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "karen"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "A stranger demanded my employee discount. I don't even work there.",
+      "emotion": "confused",
+      "action": "shrug",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Stay to the end, because the final detail changes everything.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I was buying cereal in a red shirt, which happens to be the exact color of the store uniform.",
+      "emotion": "neutral",
+      "action": "idle",
+      "camera": "wide"
+     },
+     {
+      "speaker": "karen",
+      "text": "Excuse me! I need my ten percent off. Right now.",
+      "emotion": "annoyed",
+      "action": "hands_on_hips",
+      "camera": "closeup:karen"
+     },
+     {
+      "speaker": "op",
+      "text": "Oh, I'm so sorry, I'm just a customer.",
+      "emotion": "embarrassed",
+      "action": "shrug",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "karen",
+      "text": "<loud>That is exactly what a lazy employee would say!</loud>",
+      "emotion": "angry",
+      "action": "point",
+      "camera": "two_shot"
+     }
+    ]
+   },
+   {
+    "location": "store",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "karen",
+     "manager"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Then the actual manager walked over, and he was also wearing red.",
+      "emotion": "happy",
+      "action": "idle",
+      "camera": "wide"
+     },
+     {
+      "speaker": "manager",
+      "text": "Ma'am, she doesn't work here. I'm the manager. How can I help?",
+      "emotion": "smug",
+      "action": "wave",
+      "camera": "closeup:manager"
+     },
+     {
+      "speaker": "karen",
+      "text": "Then why is she dressed like she works here?",
+      "emotion": "shocked",
+      "action": "point",
+      "camera": "shake:karen"
+     },
+     {
+      "speaker": "manager",
+      "text": "Ma'am... I'm wearing the same shirt. Are you saying I don't work here either?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "closeup:manager"
+     },
+     {
+      "speaker": "narrator",
+      "text": "She looked at my shirt. Then his shirt. Then back at my shirt.",
+      "emotion": "confused",
+      "action": "think",
+      "camera": "push_in:karen"
+     },
+     {
+      "speaker": "karen",
+      "text": "Well... can YOU give me the discount, then?",
+      "emotion": "nervous",
+      "action": "talk",
+      "camera": "closeup:karen"
+     }
+    ]
+   },
+   {
+    "location": "car",
+    "timeOfDay": "evening",
+    "onscreen": [
+     "op"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "He did. Her coupon was real the whole time. She just never asked an actual employee.",
+      "emotion": "laughing",
+      "action": "facepalm",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "op",
+      "text": "[laugh] I am never wearing this shirt shopping again.",
+      "emotion": "laughing",
+      "action": "celebrate",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "So... was I wrong for laughing the whole way home?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "timeline": {
+  "sampleRate": 48000,
+  "duration": 51.028,
+  "scenes": [
+   {
+    "index": 0,
+    "start": 0.0,
+    "end": 21.129
+   },
+   {
+    "index": 1,
+    "start": 21.129,
+    "end": 40.702
+   },
+   {
+    "index": 2,
+    "start": 40.702,
+    "end": 51.028
+   }
+  ],
+  "beats": [
+   {
+    "index": 0,
+    "scene": 0,
+    "speaker": "narrator",
+    "character": "op",
+    "narration": true,
+    "start": 0.35,
+    "end": 3.543,
+    "text": "A stranger demanded my employee discount. I don't even work there.",
+    "emotion": "confused",
+    "action": "shrug",
+    "camera": "wide",
+    "words": [
+     {
+      "text": "A",
+      "start": 0.4,
+      "end": 0.446
+     },
+     {
+      "text": "stranger",
+      "start": 0.492,
+      "end": 0.861
+     },
+     {
+      "text": "demanded",
+      "start": 0.907,
+      "end": 1.276
+     },
+     {
+      "text": "my",
+      "start": 1.322,
+      "end": 1.414
+     },
+     {
+      "text": "employee",
+      "start": 1.46,
+      "end": 1.829
+     },
+     {
+      "text": "discount.",
+      "start": 1.875,
+      "end": 2.29
+     },
+     {
+      "text": "I",
+      "start": 2.336,
+      "end": 2.383
+     },
+     {
+      "text": "don't",
+      "start": 2.429,
+      "end": 2.659
+     },
+     {
+      "text": "even",
+      "start": 2.705,
+      "end": 2.89
+     },
+     {
+      "text": "work",
+      "start": 2.936,
+      "end": 3.12
+     },
+     {
+      "text": "there.",
+      "start": 3.166,
+      "end": 3.443
+     }
+    ],
+    "mouth": [
+     [
+      0.4,
+      "open"
+     ],
+     [
+      0.446,
+      "rest"
+     ],
+     [
+      0.492,
+      "wide"
+     ],
+     [
+      0.538,
+      "teeth"
+     ],
+     [
+      0.584,
+      "mid"
+     ],
+     [
+      0.631,
+      "open"
+     ],
+     [
+      0.677,
+      "mid"
+     ],
+     [
+      0.723,
+      "wide"
+     ],
+     [
+      0.815,
+      "mid"
+     ],
+     [
+      0.861,
+      "rest"
+     ],
+     [
+      0.907,
+      "mid"
+     ],
+     [
+      0.953,
+      "wide"
+     ],
+     [
+      0.999,
+      "closed"
+     ],
+     [
+      1.045,
+      "open"
+     ],
+     [
+      1.092,
+      "mid"
+     ],
+     [
+      1.184,
+      "wide"
+     ],
+     [
+      1.23,
+      "mid"
+     ],
+     [
+      1.276,
+      "rest"
+     ],
+     [
+      1.322,
+      "closed"
+     ],
+     [
+      1.368,
+      "wide"
+     ],
+     [
+      1.414,
+      "rest"
+     ],
+     [
+      1.46,
+      "wide"
+     ],
+     [
+      1.507,
+      "closed"
+     ],
+     [
+      1.599,
+      "mid"
+     ],
+     [
+      1.645,
+      "round"
+     ],
+     [
+      1.691,
+      "wide"
+     ],
+     [
+      1.829,
+      "rest"
+     ],
+     [
+      1.875,
+      "mid"
+     ],
+     [
+      1.922,
+      "wide"
+     ],
+     [
+      2.06,
+      "round"
+     ],
+     [
+      2.152,
+      "mid"
+     ],
+     [
+      2.198,
+      "teeth"
+     ],
+     [
+      2.244,
+      "rest"
+     ],
+     [
+      2.336,
+      "wide"
+     ],
+     [
+      2.383,
+      "rest"
+     ],
+     [
+      2.429,
+      "mid"
+     ],
+     [
+      2.475,
+      "round"
+     ],
+     [
+      2.521,
+      "mid"
+     ],
+     [
+      2.567,
+      "rest"
+     ],
+     [
+      2.613,
+      "teeth"
+     ],
+     [
+      2.659,
+      "rest"
+     ],
+     [
+      2.705,
+      "wide"
+     ],
+     [
+      2.751,
+      "teeth"
+     ],
+     [
+      2.798,
+      "wide"
+     ],
+     [
+      2.844,
+      "mid"
+     ],
+     [
+      2.89,
+      "rest"
+     ],
+     [
+      2.936,
+      "round"
+     ],
+     [
+      3.028,
+      "mid"
+     ],
+     [
+      3.074,
+      "wide"
+     ],
+     [
+      3.12,
+      "rest"
+     ],
+     [
+      3.166,
+      "teeth"
+     ],
+     [
+      3.213,
+      "open"
+     ],
+     [
+      3.259,
+      "wide"
+     ],
+     [
+      3.305,
+      "mid"
+     ],
+     [
+      3.351,
+      "wide"
+     ],
+     [
+      3.397,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 1,
+    "scene": 0,
+    "speaker": "narrator",
+    "character": "op",
+    "narration": true,
+    "start": 3.763,
+    "end": 6.696,
+    "text": "Stay to the end, because the final detail changes everything.",
+    "emotion": "smug",
+    "action": "cross_arms",
+    "camera": "push_in:op",
+    "words": [
+     {
+      "text": "Stay",
+      "start": 3.813,
+      "end": 3.996
+     },
+     {
+      "text": "to",
+      "start": 4.041,
+      "end": 4.132
+     },
+     {
+      "text": "the",
+      "start": 4.178,
+      "end": 4.315
+     },
+     {
+      "text": "end,",
+      "start": 4.36,
+      "end": 4.543
+     },
+     {
+      "text": "because",
+      "start": 4.589,
+      "end": 4.908
+     },
+     {
+      "text": "the",
+      "start": 4.953,
+      "end": 5.09
+     },
+     {
+      "text": "final",
+      "start": 5.136,
+      "end": 5.364
+     },
+     {
+      "text": "detail",
+      "start": 5.41,
+      "end": 5.683
+     },
+     {
+      "text": "changes",
+      "start": 5.729,
+      "end": 6.048
+     },
+     {
+      "text": "everything.",
+      "start": 6.094,
+      "end": 6.596
+     }
+    ],
+    "mouth": [
+     [
+      3.813,
+      "wide"
+     ],
+     [
+      3.859,
+      "teeth"
+     ],
+     [
+      3.904,
+      "open"
+     ],
+     [
+      3.95,
+      "wide"
+     ],
+     [
+      3.996,
+      "rest"
+     ],
+     [
+      4.041,
+      "teeth"
+     ],
+     [
+      4.087,
+      "round"
+     ],
+     [
+      4.132,
+      "rest"
+     ],
+     [
+      4.178,
+      "teeth"
+     ],
+     [
+      4.224,
+      "open"
+     ],
+     [
+      4.269,
+      "wide"
+     ],
+     [
+      4.315,
+      "rest"
+     ],
+     [
+      4.36,
+      "wide"
+     ],
+     [
+      4.406,
+      "mid"
+     ],
+     [
+      4.497,
+      "rest"
+     ],
+     [
+      4.589,
+      "closed"
+     ],
+     [
+      4.634,
+      "wide"
+     ],
+     [
+      4.725,
+      "open"
+     ],
+     [
+      4.771,
+      "round"
+     ],
+     [
+      4.817,
+      "wide"
+     ],
+     [
+      4.908,
+      "rest"
+     ],
+     [
+      4.953,
+      "teeth"
+     ],
+     [
+      4.999,
+      "open"
+     ],
+     [
+      5.045,
+      "wide"
+     ],
+     [
+      5.09,
+      "rest"
+     ],
+     [
+      5.136,
+      "teeth"
+     ],
+     [
+      5.182,
+      "wide"
+     ],
+     [
+      5.227,
+      "mid"
+     ],
+     [
+      5.273,
+      "open"
+     ],
+     [
+      5.318,
+      "mid"
+     ],
+     [
+      5.364,
+      "rest"
+     ],
+     [
+      5.41,
+      "mid"
+     ],
+     [
+      5.455,
+      "wide"
+     ],
+     [
+      5.501,
+      "teeth"
+     ],
+     [
+      5.546,
+      "open"
+     ],
+     [
+      5.592,
+      "wide"
+     ],
+     [
+      5.638,
+      "mid"
+     ],
+     [
+      5.683,
+      "rest"
+     ],
+     [
+      5.729,
+      "wide"
+     ],
+     [
+      5.775,
+      "open"
+     ],
+     [
+      5.866,
+      "mid"
+     ],
+     [
+      5.911,
+      "wide"
+     ],
+     [
+      6.048,
+      "rest"
+     ],
+     [
+      6.094,
+      "wide"
+     ],
+     [
+      6.139,
+      "teeth"
+     ],
+     [
+      6.185,
+      "wide"
+     ],
+     [
+      6.231,
+      "mid"
+     ],
+     [
+      6.276,
+      "wide"
+     ],
+     [
+      6.322,
+      "teeth"
+     ],
+     [
+      6.368,
+      "open"
+     ],
+     [
+      6.413,
+      "wide"
+     ],
+     [
+      6.459,
+      "mid"
+     ],
+     [
+      6.504,
+      "wide"
+     ],
+     [
+      6.55,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 2,
+    "scene": 0,
+    "speaker": "narrator",
+    "character": "op",
+    "narration": true,
+    "start": 6.916,
+    "end": 11.292,
+    "text": "I was buying cereal in a red shirt, which happens to be the exact color of the store uniform.",
+    "emotion": "neutral",
+    "action": "idle",
+    "camera": "wide",
+    "words": [
+     {
+      "text": "I",
+      "start": 6.966,
+      "end": 7.011
+     },
+     {
+      "text": "was",
+      "start": 7.056,
+      "end": 7.193
+     },
+     {
+      "text": "buying",
+      "start": 7.238,
+      "end": 7.511
+     },
+     {
+      "text": "cereal",
+      "start": 7.556,
+      "end": 7.829
+     },
+     {
+      "text": "in",
+      "start": 7.874,
+      "end": 7.965
+     },
+     {
+      "text": "a",
+      "start": 8.011,
+      "end": 8.056
+     },
+     {
+      "text": "red",
+      "start": 8.102,
+      "end": 8.238
+     },
+     {
+      "text": "shirt,",
+      "start": 8.283,
+      "end": 8.556
+     },
+     {
+      "text": "which",
+      "start": 8.602,
+      "end": 8.829
+     },
+     {
+      "text": "happens",
+      "start": 8.874,
+      "end": 9.192
+     },
+     {
+      "text": "to",
+      "start": 9.238,
+      "end": 9.329
+     },
+     {
+      "text": "be",
+      "start": 9.374,
+      "end": 9.465
+     },
+     {
+      "text": "the",
+      "start": 9.51,
+      "end": 9.647
+     },
+     {
+      "text": "exact",
+      "start": 9.692,
+      "end": 9.919
+     },
+     {
+      "text": "color",
+      "start": 9.965,
+      "end": 10.192
+     },
+     {
+      "text": "of",
+      "start": 10.237,
+      "end": 10.328
+     },
+     {
+      "text": "the",
+      "start": 10.374,
+      "end": 10.51
+     },
+     {
+      "text": "store",
+      "start": 10.556,
+      "end": 10.783
+     },
+     {
+      "text": "uniform.",
+      "start": 10.828,
+      "end": 11.192
+     }
+    ],
+    "mouth": [
+     [
+      6.966,
+      "wide"
+     ],
+     [
+      7.011,
+      "rest"
+     ],
+     [
+      7.056,
+      "round"
+     ],
+     [
+      7.102,
+      "open"
+     ],
+     [
+      7.147,
+      "wide"
+     ],
+     [
+      7.193,
+      "rest"
+     ],
+     [
+      7.238,
+      "closed"
+     ],
+     [
+      7.284,
+      "round"
+     ],
+     [
+      7.329,
+      "wide"
+     ],
+     [
+      7.42,
+      "mid"
+     ],
+     [
+      7.465,
+      "wide"
+     ],
+     [
+      7.511,
+      "rest"
+     ],
+     [
+      7.556,
+      "wide"
+     ],
+     [
+      7.647,
+      "mid"
+     ],
+     [
+      7.693,
+      "wide"
+     ],
+     [
+      7.738,
+      "open"
+     ],
+     [
+      7.784,
+      "mid"
+     ],
+     [
+      7.829,
+      "rest"
+     ],
+     [
+      7.874,
+      "wide"
+     ],
+     [
+      7.92,
+      "mid"
+     ],
+     [
+      7.965,
+      "rest"
+     ],
+     [
+      8.011,
+      "open"
+     ],
+     [
+      8.056,
+      "rest"
+     ],
+     [
+      8.102,
+      "mid"
+     ],
+     [
+      8.147,
+      "wide"
+     ],
+     [
+      8.193,
+      "rest"
+     ],
+     [
+      8.283,
+      "wide"
+     ],
+     [
+      8.329,
+      "open"
+     ],
+     [
+      8.374,
+      "wide"
+     ],
+     [
+      8.42,
+      "mid"
+     ],
+     [
+      8.465,
+      "teeth"
+     ],
+     [
+      8.511,
+      "rest"
+     ],
+     [
+      8.602,
+      "open"
+     ],
+     [
+      8.692,
+      "wide"
+     ],
+     [
+      8.783,
+      "open"
+     ],
+     [
+      8.829,
+      "rest"
+     ],
+     [
+      8.874,
+      "open"
+     ],
+     [
+      8.965,
+      "closed"
+     ],
+     [
+      9.056,
+      "wide"
+     ],
+     [
+      9.101,
+      "mid"
+     ],
+     [
+      9.147,
+      "wide"
+     ],
+     [
+      9.192,
+      "rest"
+     ],
+     [
+      9.238,
+      "teeth"
+     ],
+     [
+      9.283,
+      "round"
+     ],
+     [
+      9.329,
+      "rest"
+     ],
+     [
+      9.374,
+      "closed"
+     ],
+     [
+      9.42,
+      "rest"
+     ],
+     [
+      9.51,
+      "teeth"
+     ],
+     [
+      9.556,
+      "open"
+     ],
+     [
+      9.601,
+      "wide"
+     ],
+     [
+      9.647,
+      "rest"
+     ],
+     [
+      9.692,
+      "wide"
+     ],
+     [
+      9.783,
+      "open"
+     ],
+     [
+      9.828,
+      "wide"
+     ],
+     [
+      9.874,
+      "teeth"
+     ],
+     [
+      9.919,
+      "rest"
+     ],
+     [
+      9.965,
+      "wide"
+     ],
+     [
+      10.01,
+      "round"
+     ],
+     [
+      10.056,
+      "mid"
+     ],
+     [
+      10.101,
+      "round"
+     ],
+     [
+      10.147,
+      "mid"
+     ],
+     [
+      10.192,
+      "rest"
+     ],
+     [
+      10.237,
+      "round"
+     ],
+     [
+      10.283,
+      "teeth"
+     ],
+     [
+      10.328,
+      "rest"
+     ],
+     [
+      10.374,
+      "teeth"
+     ],
+     [
+      10.419,
+      "open"
+     ],
+     [
+      10.465,
+      "wide"
+     ],
+     [
+      10.51,
+      "rest"
+     ],
+     [
+      10.556,
+      "wide"
+     ],
+     [
+      10.601,
+      "teeth"
+     ],
+     [
+      10.646,
+      "round"
+     ],
+     [
+      10.692,
+      "mid"
+     ],
+     [
+      10.737,
+      "wide"
+     ],
+     [
+      10.783,
+      "rest"
+     ],
+     [
+      10.828,
+      "round"
+     ],
+     [
+      10.874,
+      "mid"
+     ],
+     [
+      10.919,
+      "wide"
+     ],
+     [
+      10.965,
+      "teeth"
+     ],
+     [
+      11.01,
+      "round"
+     ],
+     [
+      11.055,
+      "mid"
+     ],
+     [
+      11.101,
+      "closed"
+     ],
+     [
+      11.146,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 3,
+    "scene": 0,
+    "speaker": "karen",
+    "character": "karen",
+    "narration": false,
+    "start": 11.512,
+    "end": 15.382,
+    "text": "Excuse me! I need my ten percent off. Right now.",
+    "emotion": "annoyed",
+    "action": "hands_on_hips",
+    "camera": "closeup:karen",
+    "words": [
+     {
+      "text": "Excuse",
+      "start": 11.562,
+      "end": 12.027
+     },
+     {
+      "text": "me!",
+      "start": 12.104,
+      "end": 12.337
+     },
+     {
+      "text": "I",
+      "start": 12.414,
+      "end": 12.492
+     },
+     {
+      "text": "need",
+      "start": 12.569,
+      "end": 12.879
+     },
+     {
+      "text": "my",
+      "start": 12.957,
+      "end": 13.112
+     },
+     {
+      "text": "ten",
+      "start": 13.19,
+      "end": 13.422
+     },
+     {
+      "text": "percent",
+      "start": 13.5,
+      "end": 14.042
+     },
+     {
+      "text": "off.",
+      "start": 14.12,
+      "end": 14.43
+     },
+     {
+      "text": "Right",
+      "start": 14.507,
+      "end": 14.895
+     },
+     {
+      "text": "now.",
+      "start": 14.972,
+      "end": 15.282
+     }
+    ],
+    "mouth": [
+     [
+      11.562,
+      "wide"
+     ],
+     [
+      11.794,
+      "round"
+     ],
+     [
+      11.872,
+      "wide"
+     ],
+     [
+      12.027,
+      "rest"
+     ],
+     [
+      12.104,
+      "closed"
+     ],
+     [
+      12.182,
+      "wide"
+     ],
+     [
+      12.259,
+      "rest"
+     ],
+     [
+      12.414,
+      "wide"
+     ],
+     [
+      12.492,
+      "rest"
+     ],
+     [
+      12.569,
+      "mid"
+     ],
+     [
+      12.647,
+      "wide"
+     ],
+     [
+      12.802,
+      "mid"
+     ],
+     [
+      12.879,
+      "rest"
+     ],
+     [
+      12.957,
+      "closed"
+     ],
+     [
+      13.035,
+      "wide"
+     ],
+     [
+      13.112,
+      "rest"
+     ],
+     [
+      13.19,
+      "teeth"
+     ],
+     [
+      13.267,
+      "wide"
+     ],
+     [
+      13.345,
+      "mid"
+     ],
+     [
+      13.422,
+      "rest"
+     ],
+     [
+      13.5,
+      "closed"
+     ],
+     [
+      13.577,
+      "wide"
+     ],
+     [
+      13.655,
+      "mid"
+     ],
+     [
+      13.732,
+      "wide"
+     ],
+     [
+      13.887,
+      "mid"
+     ],
+     [
+      13.965,
+      "teeth"
+     ],
+     [
+      14.042,
+      "rest"
+     ],
+     [
+      14.12,
+      "round"
+     ],
+     [
+      14.197,
+      "teeth"
+     ],
+     [
+      14.352,
+      "rest"
+     ],
+     [
+      14.507,
+      "mid"
+     ],
+     [
+      14.585,
+      "wide"
+     ],
+     [
+      14.74,
+      "open"
+     ],
+     [
+      14.817,
+      "teeth"
+     ],
+     [
+      14.895,
+      "rest"
+     ],
+     [
+      14.972,
+      "mid"
+     ],
+     [
+      15.05,
+      "round"
+     ],
+     [
+      15.205,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 4,
+    "scene": 0,
+    "speaker": "op",
+    "character": "op",
+    "narration": false,
+    "start": 15.602,
+    "end": 17.852,
+    "text": "Oh, I'm so sorry, I'm just a customer.",
+    "emotion": "embarrassed",
+    "action": "shrug",
+    "camera": "closeup:op",
+    "words": [
+     {
+      "text": "Oh,",
+      "start": 15.652,
+      "end": 15.818
+     },
+     {
+      "text": "I'm",
+      "start": 15.873,
+      "end": 16.039
+     },
+     {
+      "text": "so",
+      "start": 16.094,
+      "end": 16.205
+     },
+     {
+      "text": "sorry,",
+      "start": 16.26,
+      "end": 16.592
+     },
+     {
+      "text": "I'm",
+      "start": 16.647,
+      "end": 16.813
+     },
+     {
+      "text": "just",
+      "start": 16.868,
+      "end": 17.089
+     },
+     {
+      "text": "a",
+      "start": 17.144,
+      "end": 17.199
+     },
+     {
+      "text": "customer.",
+      "start": 17.255,
+      "end": 17.752
+     }
+    ],
+    "mouth": [
+     [
+      15.652,
+      "round"
+     ],
+     [
+      15.708,
+      "open"
+     ],
+     [
+      15.763,
+      "rest"
+     ],
+     [
+      15.873,
+      "wide"
+     ],
+     [
+      15.929,
+      "rest"
+     ],
+     [
+      15.984,
+      "closed"
+     ],
+     [
+      16.039,
+      "rest"
+     ],
+     [
+      16.094,
+      "wide"
+     ],
+     [
+      16.15,
+      "round"
+     ],
+     [
+      16.205,
+      "rest"
+     ],
+     [
+      16.26,
+      "wide"
+     ],
+     [
+      16.315,
+      "round"
+     ],
+     [
+      16.371,
+      "mid"
+     ],
+     [
+      16.481,
+      "wide"
+     ],
+     [
+      16.536,
+      "rest"
+     ],
+     [
+      16.647,
+      "wide"
+     ],
+     [
+      16.702,
+      "rest"
+     ],
+     [
+      16.757,
+      "closed"
+     ],
+     [
+      16.813,
+      "rest"
+     ],
+     [
+      16.868,
+      "wide"
+     ],
+     [
+      16.923,
+      "round"
+     ],
+     [
+      16.978,
+      "wide"
+     ],
+     [
+      17.034,
+      "teeth"
+     ],
+     [
+      17.089,
+      "rest"
+     ],
+     [
+      17.144,
+      "open"
+     ],
+     [
+      17.199,
+      "rest"
+     ],
+     [
+      17.255,
+      "wide"
+     ],
+     [
+      17.31,
+      "round"
+     ],
+     [
+      17.365,
+      "wide"
+     ],
+     [
+      17.42,
+      "teeth"
+     ],
+     [
+      17.475,
+      "round"
+     ],
+     [
+      17.531,
+      "closed"
+     ],
+     [
+      17.586,
+      "wide"
+     ],
+     [
+      17.641,
+      "mid"
+     ],
+     [
+      17.696,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 5,
+    "scene": 0,
+    "speaker": "karen",
+    "character": "karen",
+    "narration": false,
+    "start": 18.072,
+    "end": 20.854,
+    "text": "That is exactly what a lazy employee would say!",
+    "emotion": "angry",
+    "action": "point",
+    "camera": "two_shot",
+    "words": [
+     {
+      "text": "That",
+      "start": 18.122,
+      "end": 18.346
+     },
+     {
+      "text": "is",
+      "start": 18.402,
+      "end": 18.514
+     },
+     {
+      "text": "exactly",
+      "start": 18.57,
+      "end": 18.962
+     },
+     {
+      "text": "what",
+      "start": 19.018,
+      "end": 19.242
+     },
+     {
+      "text": "a",
+      "start": 19.298,
+      "end": 19.354
+     },
+     {
+      "text": "lazy",
+      "start": 19.41,
+      "end": 19.634
+     },
+     {
+      "text": "employee",
+      "start": 19.69,
+      "end": 20.138
+     },
+     {
+      "text": "would",
+      "start": 20.194,
+      "end": 20.474
+     },
+     {
+      "text": "say!",
+      "start": 20.53,
+      "end": 20.754
+     }
+    ],
+    "mouth": [
+     [
+      18.122,
+      "teeth"
+     ],
+     [
+      18.178,
+      "open"
+     ],
+     [
+      18.29,
+      "teeth"
+     ],
+     [
+      18.346,
+      "rest"
+     ],
+     [
+      18.402,
+      "wide"
+     ],
+     [
+      18.514,
+      "rest"
+     ],
+     [
+      18.57,
+      "wide"
+     ],
+     [
+      18.682,
+      "open"
+     ],
+     [
+      18.738,
+      "wide"
+     ],
+     [
+      18.794,
+      "teeth"
+     ],
+     [
+      18.85,
+      "mid"
+     ],
+     [
+      18.906,
+      "wide"
+     ],
+     [
+      18.962,
+      "rest"
+     ],
+     [
+      19.018,
+      "round"
+     ],
+     [
+      19.074,
+      "open"
+     ],
+     [
+      19.186,
+      "teeth"
+     ],
+     [
+      19.242,
+      "rest"
+     ],
+     [
+      19.298,
+      "open"
+     ],
+     [
+      19.354,
+      "rest"
+     ],
+     [
+      19.41,
+      "mid"
+     ],
+     [
+      19.466,
+      "open"
+     ],
+     [
+      19.522,
+      "wide"
+     ],
+     [
+      19.634,
+      "rest"
+     ],
+     [
+      19.69,
+      "wide"
+     ],
+     [
+      19.746,
+      "closed"
+     ],
+     [
+      19.858,
+      "mid"
+     ],
+     [
+      19.914,
+      "round"
+     ],
+     [
+      19.97,
+      "wide"
+     ],
+     [
+      20.138,
+      "rest"
+     ],
+     [
+      20.194,
+      "round"
+     ],
+     [
+      20.362,
+      "mid"
+     ],
+     [
+      20.474,
+      "rest"
+     ],
+     [
+      20.53,
+      "wide"
+     ],
+     [
+      20.586,
+      "open"
+     ],
+     [
+      20.642,
+      "wide"
+     ],
+     [
+      20.698,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 6,
+    "scene": 1,
+    "speaker": "narrator",
+    "character": "op",
+    "narration": true,
+    "start": 21.404,
+    "end": 24.425,
+    "text": "Then the actual manager walked over, and he was also wearing red.",
+    "emotion": "happy",
+    "action": "idle",
+    "camera": "wide",
+    "words": [
+     {
+      "text": "Then",
+      "start": 21.454,
+      "end": 21.631
+     },
+     {
+      "text": "the",
+      "start": 21.675,
+      "end": 21.808
+     },
+     {
+      "text": "actual",
+      "start": 21.852,
+      "end": 22.117
+     },
+     {
+      "text": "manager",
+      "start": 22.161,
+      "end": 22.47
+     },
+     {
+      "text": "walked",
+      "start": 22.514,
+      "end": 22.779
+     },
+     {
+      "text": "over,",
+      "start": 22.824,
+      "end": 23.044
+     },
+     {
+      "text": "and",
+      "start": 23.089,
+      "end": 23.221
+     },
+     {
+      "text": "he",
+      "start": 23.265,
+      "end": 23.354
+     },
+     {
+      "text": "was",
+      "start": 23.398,
+      "end": 23.53
+     },
+     {
+      "text": "also",
+      "start": 23.575,
+      "end": 23.751
+     },
+     {
+      "text": "wearing",
+      "start": 23.795,
+      "end": 24.105
+     },
+     {
+      "text": "red.",
+      "start": 24.149,
+      "end": 24.325
+     }
+    ],
+    "mouth": [
+     [
+      21.454,
+      "open"
+     ],
+     [
+      21.543,
+      "mid"
+     ],
+     [
+      21.631,
+      "teeth"
+     ],
+     [
+      21.719,
+      "wide"
+     ],
+     [
+      21.808,
+      "open"
+     ],
+     [
+      21.896,
+      "teeth"
+     ],
+     [
+      21.984,
+      "open"
+     ],
+     [
+      22.073,
+      "rest"
+     ],
+     [
+      22.161,
+      "open"
+     ],
+     [
+      22.249,
+      "open"
+     ],
+     [
+      22.338,
+      "wide"
+     ],
+     [
+      22.426,
+      "rest"
+     ],
+     [
+      22.514,
+      "open"
+     ],
+     [
+      22.603,
+      "wide"
+     ],
+     [
+      22.735,
+      "rest"
+     ],
+     [
+      22.824,
+      "teeth"
+     ],
+     [
+      22.912,
+      "mid"
+     ],
+     [
+      23.0,
+      "rest"
+     ],
+     [
+      23.089,
+      "mid"
+     ],
+     [
+      23.221,
+      "open"
+     ],
+     [
+      23.309,
+      "rest"
+     ],
+     [
+      23.398,
+      "open"
+     ],
+     [
+      23.486,
+      "rest"
+     ],
+     [
+      23.575,
+      "mid"
+     ],
+     [
+      23.663,
+      "round"
+     ],
+     [
+      23.751,
+      "round"
+     ],
+     [
+      23.84,
+      "open"
+     ],
+     [
+      23.928,
+      "wide"
+     ],
+     [
+      24.016,
+      "wide"
+     ],
+     [
+      24.105,
+      "mid"
+     ],
+     [
+      24.193,
+      "mid"
+     ],
+     [
+      24.281,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 7,
+    "scene": 1,
+    "speaker": "manager",
+    "character": "manager",
+    "narration": false,
+    "start": 24.645,
+    "end": 28.198,
+    "text": "Ma'am, she doesn't work here. I'm the manager. How can I help?",
+    "emotion": "smug",
+    "action": "wave",
+    "camera": "closeup:manager",
+    "words": [
+     {
+      "text": "Ma'am,",
+      "start": 24.695,
+      "end": 25.025
+     },
+     {
+      "text": "she",
+      "start": 25.08,
+      "end": 25.244
+     },
+     {
+      "text": "doesn't",
+      "start": 25.299,
+      "end": 25.683
+     },
+     {
+      "text": "work",
+      "start": 25.738,
+      "end": 25.958
+     },
+     {
+      "text": "here.",
+      "start": 26.013,
+      "end": 26.287
+     },
+     {
+      "text": "I'm",
+      "start": 26.342,
+      "end": 26.507
+     },
+     {
+      "text": "the",
+      "start": 26.562,
+      "end": 26.726
+     },
+     {
+      "text": "manager.",
+      "start": 26.781,
+      "end": 27.22
+     },
+     {
+      "text": "How",
+      "start": 27.275,
+      "end": 27.44
+     },
+     {
+      "text": "can",
+      "start": 27.495,
+      "end": 27.659
+     },
+     {
+      "text": "I",
+      "start": 27.714,
+      "end": 27.769
+     },
+     {
+      "text": "help?",
+      "start": 27.824,
+      "end": 28.098
+     }
+    ],
+    "mouth": [
+     [
+      24.695,
+      "closed"
+     ],
+     [
+      24.75,
+      "open"
+     ],
+     [
+      24.805,
+      "rest"
+     ],
+     [
+      24.86,
+      "open"
+     ],
+     [
+      24.915,
+      "closed"
+     ],
+     [
+      24.97,
+      "rest"
+     ],
+     [
+      25.08,
+      "wide"
+     ],
+     [
+      25.135,
+      "open"
+     ],
+     [
+      25.189,
+      "wide"
+     ],
+     [
+      25.244,
+      "rest"
+     ],
+     [
+      25.299,
+      "mid"
+     ],
+     [
+      25.354,
+      "round"
+     ],
+     [
+      25.409,
+      "wide"
+     ],
+     [
+      25.519,
+      "mid"
+     ],
+     [
+      25.574,
+      "rest"
+     ],
+     [
+      25.628,
+      "teeth"
+     ],
+     [
+      25.683,
+      "rest"
+     ],
+     [
+      25.738,
+      "round"
+     ],
+     [
+      25.848,
+      "mid"
+     ],
+     [
+      25.903,
+      "wide"
+     ],
+     [
+      25.958,
+      "rest"
+     ],
+     [
+      26.013,
+      "open"
+     ],
+     [
+      26.068,
+      "wide"
+     ],
+     [
+      26.122,
+      "mid"
+     ],
+     [
+      26.177,
+      "wide"
+     ],
+     [
+      26.232,
+      "rest"
+     ],
+     [
+      26.342,
+      "wide"
+     ],
+     [
+      26.397,
+      "rest"
+     ],
+     [
+      26.452,
+      "closed"
+     ],
+     [
+      26.507,
+      "rest"
+     ],
+     [
+      26.562,
+      "teeth"
+     ],
+     [
+      26.616,
+      "open"
+     ],
+     [
+      26.671,
+      "wide"
+     ],
+     [
+      26.726,
+      "rest"
+     ],
+     [
+      26.781,
+      "closed"
+     ],
+     [
+      26.836,
+      "open"
+     ],
+     [
+      26.891,
+      "mid"
+     ],
+     [
+      26.946,
+      "open"
+     ],
+     [
+      27.001,
+      "wide"
+     ],
+     [
+      27.11,
+      "mid"
+     ],
+     [
+      27.165,
+      "rest"
+     ],
+     [
+      27.275,
+      "open"
+     ],
+     [
+      27.33,
+      "round"
+     ],
+     [
+      27.44,
+      "rest"
+     ],
+     [
+      27.495,
+      "wide"
+     ],
+     [
+      27.55,
+      "open"
+     ],
+     [
+      27.604,
+      "mid"
+     ],
+     [
+      27.659,
+      "rest"
+     ],
+     [
+      27.714,
+      "wide"
+     ],
+     [
+      27.769,
+      "rest"
+     ],
+     [
+      27.824,
+      "open"
+     ],
+     [
+      27.879,
+      "wide"
+     ],
+     [
+      27.934,
+      "mid"
+     ],
+     [
+      27.989,
+      "closed"
+     ],
+     [
+      28.044,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 8,
+    "scene": 1,
+    "speaker": "karen",
+    "character": "karen",
+    "narration": false,
+    "start": 28.418,
+    "end": 30.721,
+    "text": "Then why is she dressed like she works here?",
+    "emotion": "shocked",
+    "action": "point",
+    "camera": "shake:karen",
+    "words": [
+     {
+      "text": "Then",
+      "start": 28.468,
+      "end": 28.664
+     },
+     {
+      "text": "why",
+      "start": 28.713,
+      "end": 28.86
+     },
+     {
+      "text": "is",
+      "start": 28.909,
+      "end": 29.007
+     },
+     {
+      "text": "she",
+      "start": 29.056,
+      "end": 29.202
+     },
+     {
+      "text": "dressed",
+      "start": 29.251,
+      "end": 29.594
+     },
+     {
+      "text": "like",
+      "start": 29.643,
+      "end": 29.838
+     },
+     {
+      "text": "she",
+      "start": 29.887,
+      "end": 30.034
+     },
+     {
+      "text": "works",
+      "start": 30.083,
+      "end": 30.327
+     },
+     {
+      "text": "here?",
+      "start": 30.376,
+      "end": 30.621
+     }
+    ],
+    "mouth": [
+     [
+      28.468,
+      "teeth"
+     ],
+     [
+      28.517,
+      "open"
+     ],
+     [
+      28.566,
+      "wide"
+     ],
+     [
+      28.615,
+      "mid"
+     ],
+     [
+      28.664,
+      "rest"
+     ],
+     [
+      28.713,
+      "round"
+     ],
+     [
+      28.762,
+      "open"
+     ],
+     [
+      28.811,
+      "wide"
+     ],
+     [
+      28.86,
+      "rest"
+     ],
+     [
+      28.909,
+      "wide"
+     ],
+     [
+      29.007,
+      "rest"
+     ],
+     [
+      29.056,
+      "wide"
+     ],
+     [
+      29.104,
+      "open"
+     ],
+     [
+      29.153,
+      "wide"
+     ],
+     [
+      29.202,
+      "rest"
+     ],
+     [
+      29.251,
+      "mid"
+     ],
+     [
+      29.349,
+      "wide"
+     ],
+     [
+      29.545,
+      "mid"
+     ],
+     [
+      29.594,
+      "rest"
+     ],
+     [
+      29.643,
+      "mid"
+     ],
+     [
+      29.691,
+      "wide"
+     ],
+     [
+      29.838,
+      "rest"
+     ],
+     [
+      29.887,
+      "wide"
+     ],
+     [
+      29.936,
+      "open"
+     ],
+     [
+      29.985,
+      "wide"
+     ],
+     [
+      30.034,
+      "rest"
+     ],
+     [
+      30.083,
+      "round"
+     ],
+     [
+      30.181,
+      "mid"
+     ],
+     [
+      30.23,
+      "wide"
+     ],
+     [
+      30.327,
+      "rest"
+     ],
+     [
+      30.376,
+      "open"
+     ],
+     [
+      30.425,
+      "wide"
+     ],
+     [
+      30.474,
+      "mid"
+     ],
+     [
+      30.523,
+      "wide"
+     ],
+     [
+      30.572,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 9,
+    "scene": 1,
+    "speaker": "manager",
+    "character": "manager",
+    "narration": false,
+    "start": 30.941,
+    "end": 34.645,
+    "text": "Ma'am... I'm wearing the same shirt. Are you saying I don't work here either?",
+    "emotion": "smug",
+    "action": "shrug",
+    "camera": "closeup:manager",
+    "words": [
+     {
+      "text": "Ma'am...",
+      "start": 30.991,
+      "end": 31.36
+     },
+     {
+      "text": "I'm",
+      "start": 31.406,
+      "end": 31.545
+     },
+     {
+      "text": "wearing",
+      "start": 31.591,
+      "end": 31.914
+     },
+     {
+      "text": "the",
+      "start": 31.96,
+      "end": 32.099
+     },
+     {
+      "text": "same",
+      "start": 32.145,
+      "end": 32.329
+     },
+     {
+      "text": "shirt.",
+      "start": 32.376,
+      "end": 32.652
+     },
+     {
+      "text": "Are",
+      "start": 32.699,
+      "end": 32.837
+     },
+     {
+      "text": "you",
+      "start": 32.883,
+      "end": 33.022
+     },
+     {
+      "text": "saying",
+      "start": 33.068,
+      "end": 33.345
+     },
+     {
+      "text": "I",
+      "start": 33.391,
+      "end": 33.437
+     },
+     {
+      "text": "don't",
+      "start": 33.483,
+      "end": 33.714
+     },
+     {
+      "text": "work",
+      "start": 33.76,
+      "end": 33.945
+     },
+     {
+      "text": "here",
+      "start": 33.991,
+      "end": 34.176
+     },
+     {
+      "text": "either?",
+      "start": 34.222,
+      "end": 34.545
+     }
+    ],
+    "mouth": [
+     [
+      30.991,
+      "closed"
+     ],
+     [
+      31.037,
+      "open"
+     ],
+     [
+      31.083,
+      "rest"
+     ],
+     [
+      31.129,
+      "open"
+     ],
+     [
+      31.176,
+      "closed"
+     ],
+     [
+      31.222,
+      "rest"
+     ],
+     [
+      31.406,
+      "wide"
+     ],
+     [
+      31.453,
+      "rest"
+     ],
+     [
+      31.499,
+      "closed"
+     ],
+     [
+      31.545,
+      "rest"
+     ],
+     [
+      31.591,
+      "round"
+     ],
+     [
+      31.637,
+      "wide"
+     ],
+     [
+      31.683,
+      "open"
+     ],
+     [
+      31.729,
+      "mid"
+     ],
+     [
+      31.776,
+      "wide"
+     ],
+     [
+      31.822,
+      "mid"
+     ],
+     [
+      31.868,
+      "wide"
+     ],
+     [
+      31.914,
+      "rest"
+     ],
+     [
+      31.96,
+      "teeth"
+     ],
+     [
+      32.006,
+      "open"
+     ],
+     [
+      32.052,
+      "wide"
+     ],
+     [
+      32.099,
+      "rest"
+     ],
+     [
+      32.145,
+      "wide"
+     ],
+     [
+      32.191,
+      "open"
+     ],
+     [
+      32.237,
+      "closed"
+     ],
+     [
+      32.283,
+      "wide"
+     ],
+     [
+      32.329,
+      "rest"
+     ],
+     [
+      32.376,
+      "wide"
+     ],
+     [
+      32.422,
+      "open"
+     ],
+     [
+      32.468,
+      "wide"
+     ],
+     [
+      32.514,
+      "mid"
+     ],
+     [
+      32.56,
+      "teeth"
+     ],
+     [
+      32.606,
+      "rest"
+     ],
+     [
+      32.699,
+      "open"
+     ],
+     [
+      32.745,
+      "mid"
+     ],
+     [
+      32.791,
+      "wide"
+     ],
+     [
+      32.837,
+      "rest"
+     ],
+     [
+      32.883,
+      "wide"
+     ],
+     [
+      32.929,
+      "round"
+     ],
+     [
+      33.022,
+      "rest"
+     ],
+     [
+      33.068,
+      "wide"
+     ],
+     [
+      33.114,
+      "open"
+     ],
+     [
+      33.16,
+      "wide"
+     ],
+     [
+      33.252,
+      "mid"
+     ],
+     [
+      33.299,
+      "wide"
+     ],
+     [
+      33.345,
+      "rest"
+     ],
+     [
+      33.391,
+      "wide"
+     ],
+     [
+      33.437,
+      "rest"
+     ],
+     [
+      33.483,
+      "mid"
+     ],
+     [
+      33.529,
+      "round"
+     ],
+     [
+      33.576,
+      "mid"
+     ],
+     [
+      33.622,
+      "rest"
+     ],
+     [
+      33.668,
+      "teeth"
+     ],
+     [
+      33.714,
+      "rest"
+     ],
+     [
+      33.76,
+      "round"
+     ],
+     [
+      33.852,
+      "mid"
+     ],
+     [
+      33.899,
+      "wide"
+     ],
+     [
+      33.945,
+      "rest"
+     ],
+     [
+      33.991,
+      "open"
+     ],
+     [
+      34.037,
+      "wide"
+     ],
+     [
+      34.083,
+      "mid"
+     ],
+     [
+      34.129,
+      "wide"
+     ],
+     [
+      34.176,
+      "rest"
+     ],
+     [
+      34.222,
+      "wide"
+     ],
+     [
+      34.314,
+      "teeth"
+     ],
+     [
+      34.36,
+      "open"
+     ],
+     [
+      34.406,
+      "wide"
+     ],
+     [
+      34.452,
+      "mid"
+     ],
+     [
+      34.499,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 10,
+    "scene": 1,
+    "speaker": "narrator",
+    "character": "op",
+    "narration": true,
+    "start": 34.865,
+    "end": 37.713,
+    "text": "She looked at my shirt. Then his shirt. Then back at my shirt.",
+    "emotion": "confused",
+    "action": "think",
+    "camera": "push_in:karen",
+    "words": [
+     {
+      "text": "She",
+      "start": 34.915,
+      "end": 35.045
+     },
+     {
+      "text": "looked",
+      "start": 35.089,
+      "end": 35.35
+     },
+     {
+      "text": "at",
+      "start": 35.393,
+      "end": 35.481
+     },
+     {
+      "text": "my",
+      "start": 35.524,
+      "end": 35.611
+     },
+     {
+      "text": "shirt.",
+      "start": 35.655,
+      "end": 35.916
+     },
+     {
+      "text": "Then",
+      "start": 35.959,
+      "end": 36.133
+     },
+     {
+      "text": "his",
+      "start": 36.177,
+      "end": 36.307
+     },
+     {
+      "text": "shirt.",
+      "start": 36.351,
+      "end": 36.612
+     },
+     {
+      "text": "Then",
+      "start": 36.656,
+      "end": 36.83
+     },
+     {
+      "text": "back",
+      "start": 36.873,
+      "end": 37.047
+     },
+     {
+      "text": "at",
+      "start": 37.091,
+      "end": 37.178
+     },
+     {
+      "text": "my",
+      "start": 37.221,
+      "end": 37.308
+     },
+     {
+      "text": "shirt.",
+      "start": 37.352,
+      "end": 37.613
+     }
+    ],
+    "mouth": [
+     [
+      34.915,
+      "open"
+     ],
+     [
+      35.002,
+      "rest"
+     ],
+     [
+      35.089,
+      "round"
+     ],
+     [
+      35.219,
+      "wide"
+     ],
+     [
+      35.306,
+      "rest"
+     ],
+     [
+      35.393,
+      "teeth"
+     ],
+     [
+      35.481,
+      "closed"
+     ],
+     [
+      35.568,
+      "rest"
+     ],
+     [
+      35.655,
+      "open"
+     ],
+     [
+      35.742,
+      "mid"
+     ],
+     [
+      35.829,
+      "rest"
+     ],
+     [
+      35.959,
+      "open"
+     ],
+     [
+      36.046,
+      "mid"
+     ],
+     [
+      36.133,
+      "open"
+     ],
+     [
+      36.22,
+      "wide"
+     ],
+     [
+      36.307,
+      "wide"
+     ],
+     [
+      36.394,
+      "wide"
+     ],
+     [
+      36.481,
+      "teeth"
+     ],
+     [
+      36.569,
+      "rest"
+     ],
+     [
+      36.656,
+      "open"
+     ],
+     [
+      36.743,
+      "mid"
+     ],
+     [
+      36.83,
+      "closed"
+     ],
+     [
+      36.917,
+      "wide"
+     ],
+     [
+      37.047,
+      "open"
+     ],
+     [
+      37.134,
+      "rest"
+     ],
+     [
+      37.221,
+      "wide"
+     ],
+     [
+      37.308,
+      "wide"
+     ],
+     [
+      37.395,
+      "wide"
+     ],
+     [
+      37.482,
+      "teeth"
+     ],
+     [
+      37.57,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 11,
+    "scene": 1,
+    "speaker": "karen",
+    "character": "karen",
+    "narration": false,
+    "start": 37.933,
+    "end": 40.427,
+    "text": "Well... can YOU give me the discount, then?",
+    "emotion": "nervous",
+    "action": "talk",
+    "camera": "closeup:karen",
+    "words": [
+     {
+      "text": "Well...",
+      "start": 37.983,
+      "end": 38.365
+     },
+     {
+      "text": "can",
+      "start": 38.419,
+      "end": 38.583
+     },
+     {
+      "text": "YOU",
+      "start": 38.637,
+      "end": 38.801
+     },
+     {
+      "text": "give",
+      "start": 38.855,
+      "end": 39.073
+     },
+     {
+      "text": "me",
+      "start": 39.128,
+      "end": 39.237
+     },
+     {
+      "text": "the",
+      "start": 39.291,
+      "end": 39.455
+     },
+     {
+      "text": "discount,",
+      "start": 39.51,
+      "end": 40.0
+     },
+     {
+      "text": "then?",
+      "start": 40.055,
+      "end": 40.327
+     }
+    ],
+    "mouth": [
+     [
+      37.983,
+      "round"
+     ],
+     [
+      38.038,
+      "wide"
+     ],
+     [
+      38.092,
+      "mid"
+     ],
+     [
+      38.201,
+      "rest"
+     ],
+     [
+      38.419,
+      "wide"
+     ],
+     [
+      38.474,
+      "open"
+     ],
+     [
+      38.528,
+      "mid"
+     ],
+     [
+      38.583,
+      "rest"
+     ],
+     [
+      38.637,
+      "wide"
+     ],
+     [
+      38.692,
+      "round"
+     ],
+     [
+      38.801,
+      "rest"
+     ],
+     [
+      38.855,
+      "wide"
+     ],
+     [
+      38.964,
+      "teeth"
+     ],
+     [
+      39.019,
+      "wide"
+     ],
+     [
+      39.073,
+      "rest"
+     ],
+     [
+      39.128,
+      "closed"
+     ],
+     [
+      39.182,
+      "wide"
+     ],
+     [
+      39.237,
+      "rest"
+     ],
+     [
+      39.291,
+      "teeth"
+     ],
+     [
+      39.346,
+      "open"
+     ],
+     [
+      39.4,
+      "wide"
+     ],
+     [
+      39.455,
+      "rest"
+     ],
+     [
+      39.51,
+      "mid"
+     ],
+     [
+      39.564,
+      "wide"
+     ],
+     [
+      39.728,
+      "round"
+     ],
+     [
+      39.837,
+      "mid"
+     ],
+     [
+      39.891,
+      "teeth"
+     ],
+     [
+      39.946,
+      "rest"
+     ],
+     [
+      40.055,
+      "teeth"
+     ],
+     [
+      40.109,
+      "open"
+     ],
+     [
+      40.164,
+      "wide"
+     ],
+     [
+      40.218,
+      "mid"
+     ],
+     [
+      40.273,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 12,
+    "scene": 2,
+    "speaker": "narrator",
+    "character": "op",
+    "narration": true,
+    "start": 40.977,
+    "end": 45.26,
+    "text": "He did. Her coupon was real the whole time. She just never asked an actual employee.",
+    "emotion": "laughing",
+    "action": "facepalm",
+    "camera": "closeup:op",
+    "words": [
+     {
+      "text": "He",
+      "start": 41.027,
+      "end": 41.126
+     },
+     {
+      "text": "did.",
+      "start": 41.175,
+      "end": 41.372
+     },
+     {
+      "text": "Her",
+      "start": 41.421,
+      "end": 41.569
+     },
+     {
+      "text": "coupon",
+      "start": 41.618,
+      "end": 41.913
+     },
+     {
+      "text": "was",
+      "start": 41.962,
+      "end": 42.11
+     },
+     {
+      "text": "real",
+      "start": 42.159,
+      "end": 42.356
+     },
+     {
+      "text": "the",
+      "start": 42.405,
+      "end": 42.553
+     },
+     {
+      "text": "whole",
+      "start": 42.602,
+      "end": 42.848
+     },
+     {
+      "text": "time.",
+      "start": 42.897,
+      "end": 43.143
+     },
+     {
+      "text": "She",
+      "start": 43.192,
+      "end": 43.34
+     },
+     {
+      "text": "just",
+      "start": 43.389,
+      "end": 43.586
+     },
+     {
+      "text": "never",
+      "start": 43.635,
+      "end": 43.881
+     },
+     {
+      "text": "asked",
+      "start": 43.93,
+      "end": 44.176
+     },
+     {
+      "text": "an",
+      "start": 44.225,
+      "end": 44.324
+     },
+     {
+      "text": "actual",
+      "start": 44.373,
+      "end": 44.668
+     },
+     {
+      "text": "employee.",
+      "start": 44.717,
+      "end": 45.16
+     }
+    ],
+    "mouth": [
+     [
+      41.027,
+      "open"
+     ],
+     [
+      41.077,
+      "wide"
+     ],
+     [
+      41.126,
+      "rest"
+     ],
+     [
+      41.175,
+      "mid"
+     ],
+     [
+      41.224,
+      "wide"
+     ],
+     [
+      41.273,
+      "mid"
+     ],
+     [
+      41.323,
+      "rest"
+     ],
+     [
+      41.421,
+      "open"
+     ],
+     [
+      41.47,
+      "wide"
+     ],
+     [
+      41.519,
+      "mid"
+     ],
+     [
+      41.569,
+      "rest"
+     ],
+     [
+      41.618,
+      "wide"
+     ],
+     [
+      41.667,
+      "round"
+     ],
+     [
+      41.765,
+      "closed"
+     ],
+     [
+      41.815,
+      "round"
+     ],
+     [
+      41.864,
+      "mid"
+     ],
+     [
+      41.913,
+      "rest"
+     ],
+     [
+      41.962,
+      "round"
+     ],
+     [
+      42.011,
+      "open"
+     ],
+     [
+      42.061,
+      "wide"
+     ],
+     [
+      42.11,
+      "rest"
+     ],
+     [
+      42.159,
+      "mid"
+     ],
+     [
+      42.208,
+      "wide"
+     ],
+     [
+      42.257,
+      "open"
+     ],
+     [
+      42.307,
+      "mid"
+     ],
+     [
+      42.356,
+      "rest"
+     ],
+     [
+      42.405,
+      "teeth"
+     ],
+     [
+      42.454,
+      "open"
+     ],
+     [
+      42.503,
+      "wide"
+     ],
+     [
+      42.553,
+      "rest"
+     ],
+     [
+      42.602,
+      "round"
+     ],
+     [
+      42.651,
+      "open"
+     ],
+     [
+      42.7,
+      "round"
+     ],
+     [
+      42.749,
+      "mid"
+     ],
+     [
+      42.798,
+      "wide"
+     ],
+     [
+      42.848,
+      "rest"
+     ],
+     [
+      42.897,
+      "teeth"
+     ],
+     [
+      42.946,
+      "wide"
+     ],
+     [
+      42.995,
+      "closed"
+     ],
+     [
+      43.044,
+      "wide"
+     ],
+     [
+      43.094,
+      "rest"
+     ],
+     [
+      43.192,
+      "wide"
+     ],
+     [
+      43.241,
+      "open"
+     ],
+     [
+      43.29,
+      "wide"
+     ],
+     [
+      43.34,
+      "rest"
+     ],
+     [
+      43.389,
+      "wide"
+     ],
+     [
+      43.438,
+      "round"
+     ],
+     [
+      43.487,
+      "wide"
+     ],
+     [
+      43.536,
+      "teeth"
+     ],
+     [
+      43.586,
+      "rest"
+     ],
+     [
+      43.635,
+      "mid"
+     ],
+     [
+      43.684,
+      "wide"
+     ],
+     [
+      43.733,
+      "teeth"
+     ],
+     [
+      43.782,
+      "wide"
+     ],
+     [
+      43.832,
+      "mid"
+     ],
+     [
+      43.881,
+      "rest"
+     ],
+     [
+      43.93,
+      "open"
+     ],
+     [
+      43.979,
+      "wide"
+     ],
+     [
+      44.127,
+      "mid"
+     ],
+     [
+      44.176,
+      "rest"
+     ],
+     [
+      44.225,
+      "open"
+     ],
+     [
+      44.274,
+      "mid"
+     ],
+     [
+      44.324,
+      "rest"
+     ],
+     [
+      44.373,
+      "open"
+     ],
+     [
+      44.422,
+      "wide"
+     ],
+     [
+      44.471,
+      "teeth"
+     ],
+     [
+      44.52,
+      "round"
+     ],
+     [
+      44.57,
+      "open"
+     ],
+     [
+      44.619,
+      "mid"
+     ],
+     [
+      44.668,
+      "rest"
+     ],
+     [
+      44.717,
+      "wide"
+     ],
+     [
+      44.766,
+      "closed"
+     ],
+     [
+      44.865,
+      "mid"
+     ],
+     [
+      44.914,
+      "round"
+     ],
+     [
+      44.963,
+      "wide"
+     ],
+     [
+      45.111,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 13,
+    "scene": 2,
+    "speaker": "op",
+    "character": "op",
+    "narration": false,
+    "start": 45.48,
+    "end": 47.326,
+    "text": "I am never wearing this shirt shopping again.",
+    "emotion": "laughing",
+    "action": "celebrate",
+    "camera": "closeup:op",
+    "words": [
+     {
+      "text": "I",
+      "start": 45.53,
+      "end": 45.568
+     },
+     {
+      "text": "am",
+      "start": 45.605,
+      "end": 45.681
+     },
+     {
+      "text": "never",
+      "start": 45.718,
+      "end": 45.907
+     },
+     {
+      "text": "wearing",
+      "start": 45.945,
+      "end": 46.208
+     },
+     {
+      "text": "this",
+      "start": 46.246,
+      "end": 46.397
+     },
+     {
+      "text": "shirt",
+      "start": 46.434,
+      "end": 46.623
+     },
+     {
+      "text": "shopping",
+      "start": 46.661,
+      "end": 46.962
+     },
+     {
+      "text": "again.",
+      "start": 47.0,
+      "end": 47.226
+     }
+    ],
+    "mouth": [
+     [
+      45.53,
+      "rest"
+     ],
+     [
+      45.605,
+      "closed"
+     ],
+     [
+      45.681,
+      "mid"
+     ],
+     [
+      45.756,
+      "teeth"
+     ],
+     [
+      45.832,
+      "mid"
+     ],
+     [
+      45.907,
+      "round"
+     ],
+     [
+      45.982,
+      "open"
+     ],
+     [
+      46.058,
+      "wide"
+     ],
+     [
+      46.133,
+      "wide"
+     ],
+     [
+      46.208,
+      "teeth"
+     ],
+     [
+      46.284,
+      "wide"
+     ],
+     [
+      46.397,
+      "wide"
+     ],
+     [
+      46.472,
+      "wide"
+     ],
+     [
+      46.548,
+      "teeth"
+     ],
+     [
+      46.623,
+      "wide"
+     ],
+     [
+      46.698,
+      "round"
+     ],
+     [
+      46.774,
+      "closed"
+     ],
+     [
+      46.849,
+      "mid"
+     ],
+     [
+      46.924,
+      "rest"
+     ],
+     [
+      47.0,
+      "wide"
+     ],
+     [
+      47.075,
+      "wide"
+     ],
+     [
+      47.15,
+      "rest"
+     ]
+    ]
+   },
+   {
+    "index": 14,
+    "scene": 2,
+    "speaker": "narrator",
+    "character": "op",
+    "narration": true,
+    "start": 47.546,
+    "end": 49.828,
+    "text": "So... was I wrong for laughing the whole way home?",
+    "emotion": "smug",
+    "action": "shrug",
+    "camera": "wide",
+    "words": [
+     {
+      "text": "So...",
+      "start": 47.596,
+      "end": 47.809
+     },
+     {
+      "text": "was",
+      "start": 47.852,
+      "end": 47.98
+     },
+     {
+      "text": "I",
+      "start": 48.022,
+      "end": 48.065
+     },
+     {
+      "text": "wrong",
+      "start": 48.108,
+      "end": 48.321
+     },
+     {
+      "text": "for",
+      "start": 48.363,
+      "end": 48.491
+     },
+     {
+      "text": "laughing",
+      "start": 48.534,
+      "end": 48.875
+     },
+     {
+      "text": "the",
+      "start": 48.918,
+      "end": 49.046
+     },
+     {
+      "text": "whole",
+      "start": 49.088,
+      "end": 49.302
+     },
+     {
+      "text": "way",
+      "start": 49.344,
+      "end": 49.472
+     },
+     {
+      "text": "home?",
+      "start": 49.515,
+      "end": 49.728
+     }
+    ],
+    "mouth": [
+     [
+      47.596,
+      "round"
+     ],
+     [
+      47.681,
+      "rest"
+     ],
+     [
+      47.852,
+      "open"
+     ],
+     [
+      47.937,
+      "rest"
+     ],
+     [
+      48.022,
+      "rest"
+     ],
+     [
+      48.108,
+      "mid"
+     ],
+     [
+      48.193,
+      "mid"
+     ],
+     [
+      48.278,
+      "rest"
+     ],
+     [
+      48.363,
+      "round"
+     ],
+     [
+      48.449,
+      "rest"
+     ],
+     [
+      48.534,
+      "open"
+     ],
+     [
+      48.619,
+      "wide"
+     ],
+     [
+      48.705,
+      "wide"
+     ],
+     [
+      48.79,
+      "wide"
+     ],
+     [
+      48.875,
+      "teeth"
+     ],
+     [
+      48.961,
+      "wide"
+     ],
+     [
+      49.046,
+      "round"
+     ],
+     [
+      49.131,
+      "round"
+     ],
+     [
+      49.216,
+      "wide"
+     ],
+     [
+      49.302,
+      "round"
+     ],
+     [
+      49.387,
+      "wide"
+     ],
+     [
+      49.472,
+      "open"
+     ],
+     [
+      49.558,
+      "closed"
+     ],
+     [
+      49.643,
+      "rest"
+     ]
+    ]
+   }
+  ]
+ },
+ "style": "mixed",
+ "audioSrc": "sample/mix.mp3",
+ "subreddit": "MaliciousCompliance",
+ "seed": 7
+}

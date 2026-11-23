@@ -1,0 +1,230 @@
+{
+ "source": {
+  "title": "New CTO:\"If you're not at your desk, it's not work.\" We stopped working the second we weren't at our desks.",
+  "subreddit": "MaliciousCompliance",
+  "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1wdu7o5/new_ctoif_youre_not_at_your_desk_its_not_work_we/",
+  "score": 24597,
+  "num_comments": 902,
+  "text": "Quick background: mid-size B2B software company, hybrid since forever. The unspoken deal was simple a couple days in office, and if prod broke at 9pm or a client panicked on a Saturday, someone fixed it from home. Unpaid, but nobody minded. Goodwill.\n\nNew CTO arrives from a much more rigid company. Second all-hands, he kills the flexible days: 9-5, in office, no exceptions. Asked about after-hours emergencies, he says, paraphrasing only slightly,\"If you're not at your desk, actively working, I don't consider it work. I don't care what you'd have done from your couch at 9pm.\"\n\nSomeone half-jokes,\"So nothing outside 9-5 at the desk counts?\" Him, dead serious: \"Exactly. Glad we're aligned.\"\n\nWe were aligned. So we complied  fully, literally.\n\nSlack got muted at 5:00 sharp. Nobody checked email after leaving. A PM pinged on-call at 6pm about a broken integration and got silence until 9am the next day.\n\nThen, one Friday, a deploy went out at 4:52, minutes before the freeze a configuration value missed one customer segment. Under the old system, someone would've caught it from their phone by 5:30. Under the new one: the alert fired at 5:06. Nobody was at their desk, and per the CTO himself, that meant nobody was working. So nobody looked.\n\nIt ran the whole weekend. Our biggest client had a fully broken dashboard for 61 hours. By Monday at 9am there were 200+ support tickets, a furious VP of Sales, and a client using the word \"churn\" a lot.\n\nThe CTO demanded to know how nobody noticed for two and a half days. Our team lead completely deadpan pulled up his exact quote from the all-hands: \"if you're not at your desk, actively working, I don't consider it work.\" Nobody was at their desk all weekend. By his own definition, nobody was working. Nothing to notice.\n\nI've never heard a room go that quiet.\n\nWe got a real on-call rotation within the week actual comp time, not vibes. Hybrid quietly came back a month later as a \"pilot.\" Nobody's said \"if you're not at your desk\" out loud since.\n\nTurns out a lot of \"not real work\" had been holding the place together for free."
+ },
+ "render_style": null,
+ "written_by": "cursor-agent",
+ "notes": "Callback structure: the CTO's quote is set up in scene 1 and read back to him word for word in scene 3.",
+ "screenplay": {
+  "title": "New boss: 'If you're not at your desk, it's not work.' So we stopped.",
+  "mood": "funny",
+  "characters": [
+   {
+    "id": "op",
+    "name": "Me",
+    "gender": "female",
+    "age": "20s",
+    "voiceTone": "bright",
+    "look": {
+     "hair": "ponytail",
+     "hairColor": "#4a2f1d",
+     "skin": "#a0662f",
+     "outfit": "hoodie",
+     "outfitColor": "#8e44ad",
+     "accessory": "none"
+    }
+   },
+   {
+    "id": "cto",
+    "name": "New CTO",
+    "gender": "male",
+    "age": "40s",
+    "voiceTone": "stern",
+    "look": {
+     "hair": "short",
+     "hairColor": "#1f1a17",
+     "skin": "#f1c27d",
+     "outfit": "suit",
+     "outfitColor": "#2f80ed",
+     "accessory": "glasses"
+    }
+   },
+   {
+    "id": "lead",
+    "name": "Team Lead",
+    "gender": "male",
+    "age": "30s",
+    "voiceTone": "deep",
+    "look": {
+     "hair": "curly",
+     "hairColor": "#2c1b10",
+     "skin": "#8d5524",
+     "outfit": "sweater",
+     "outfitColor": "#f39c12",
+     "accessory": "beard"
+    }
+   }
+  ],
+  "scenes": [
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "cto",
+     "lead"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Our new boss said work only counts at your desk. We listened.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "wide"
+     },
+     {
+      "speaker": "narrator",
+      "text": "We used to fix late-night emergencies from home, for free. Nobody minded.",
+      "emotion": "neutral",
+      "action": "idle",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "cto",
+      "text": "Starting now: nine to five, in the office. No exceptions.",
+      "emotion": "neutral",
+      "action": "point",
+      "camera": "closeup:cto"
+     },
+     {
+      "speaker": "lead",
+      "text": "And emergencies after hours?",
+      "emotion": "confused",
+      "action": "talk",
+      "camera": "closeup:lead"
+     },
+     {
+      "speaker": "cto",
+      "text": "If you're not at your desk, actively working, it's not work. I don't care what you do from your couch.",
+      "emotion": "annoyed",
+      "action": "hands_on_hips",
+      "camera": "closeup:cto"
+     },
+     {
+      "speaker": "op",
+      "text": "So nothing outside nine to five counts?",
+      "emotion": "confused",
+      "action": "talk",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "cto",
+      "text": "Exactly. Glad we're aligned.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "closeup:cto"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "evening",
+    "onscreen": [
+     "op",
+     "lead"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "We were aligned. So we complied. Fully. Literally.",
+      "emotion": "smug",
+      "action": "cross_arms",
+      "camera": "push_in:op"
+     },
+     {
+      "speaker": "op",
+      "text": "It's 5:00. Muting everything. See you at nine.",
+      "emotion": "happy",
+      "action": "wave",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Then one Friday, an update went out at 4:52 with a tiny bug. The alarm went off at 5:06.",
+      "emotion": "nervous",
+      "action": "idle",
+      "camera": "wide"
+     }
+    ]
+   },
+   {
+    "location": "office",
+    "timeOfDay": "day",
+    "onscreen": [
+     "op",
+     "cto",
+     "lead"
+    ],
+    "beats": [
+     {
+      "speaker": "narrator",
+      "text": "Nobody was at a desk, so nobody looked. Our biggest client's dashboard stayed broken for 61 hours.",
+      "emotion": "shocked",
+      "action": "facepalm",
+      "camera": "wide"
+     },
+     {
+      "speaker": "cto",
+      "text": "[shouting] Two hundred tickets! How did nobody notice for two and a half days?",
+      "emotion": "angry",
+      "action": "point",
+      "camera": "shake:cto"
+     },
+     {
+      "speaker": "lead",
+      "text": "[deadpan] Quote: 'If you're not at your desk, actively working, I don't consider it work.'",
+      "emotion": "neutral",
+      "action": "cross_arms",
+      "camera": "closeup:lead"
+     },
+     {
+      "speaker": "lead",
+      "text": "Nobody was at their desk all weekend. By your definition, nobody was working.",
+      "emotion": "neutral",
+      "action": "shrug",
+      "camera": "closeup:lead"
+     },
+     {
+      "speaker": "narrator",
+      "text": "I've never heard a room go that quiet. Within a week, we had a real on-call schedule, with real time off for it.",
+      "emotion": "happy",
+      "action": "celebrate",
+      "camera": "closeup:op"
+     },
+     {
+      "speaker": "narrator",
+      "text": "Would you have checked that alarm at 5:06, or let it ring?",
+      "emotion": "smug",
+      "action": "shrug",
+      "camera": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ "result": {
+  "status": "uploaded",
+  "at": "2026-11-19T18:38:51+00:00",
+  "via": "buffer",
+  "when": "now",
+  "youtube": {
+   "id": "6aff41ce87aa33b10ee3470a",
+   "status": "sent",
+   "sentAt": "2026-11-19T18:37:05.262Z",
+   "externalLink": "https://www.youtube.com/watch?v=4uKalJWEMoE",
+   "error": null
+  },
+  "tiktok": {
+   "id": "6aff41d3f2c50feeb78d12dd",
+   "status": "sent",
+   "sentAt": "2026-11-19T18:38:50.891Z",
+   "externalLink": "https://tiktok.com/@theredditreviews/video/7709953441539460366",
+   "error": null
+  }
+ }
+}
